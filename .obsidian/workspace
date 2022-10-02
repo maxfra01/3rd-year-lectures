@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "1e7bd2e549360168",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a1c72efbe9057e9",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd457b9823b69425",
+    "type": "split",
+    "children": [
+      {
+        "id": "400a347c06bbd810",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2851abea1e9fb60",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e978d2a2a48b1dc7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "046b4f0dcf9a4d7e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c556ac04022b3a5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "27dc41af7a021f21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bce334139b7bbd7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00b85705f5b1cd68",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "52e14168be35c90d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e3933e17cf316e27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1a1c72efbe9057e9",
+  "lastOpenFiles": [
+    "Sistemi elettrici, tecnologie, misure/Conversione Analogico-Digitale.md",
+    "Teoria ed elaborazione dei segnali/Grandezze di interesse sui segnali.md",
+    "Teoria ed elaborazione dei segnali/Rappresentazione vettoriale dei segnali.md",
+    "Sistemi elettrici, tecnologie, misure/DSO Digital Storage Oscilloscope.md",
+    "Sistemi operativi/intro.md",
+    "2022-09-29.md",
+    "Sistemi elettrici, tecnologie, misure/images/Pasted image 20220929185823.png",
+    "Sistemi elettrici, tecnologie, misure/images/Pasted image 20220929145417.png",
+    "Sistemi elettrici, tecnologie, misure/images/Pasted image 20220929184736.png",
+    "Pasted image 20220929185121.png"
+  ]
+}
