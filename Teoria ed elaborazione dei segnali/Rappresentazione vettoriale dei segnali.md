@@ -23,7 +23,7 @@ $$
 
 ![[Pasted image 20220930165836.png]]
 
-
+Alcune definizioni già viste in [[Grandezze di interesse sui segnali]].
 
 # Spazio dei segnali
 

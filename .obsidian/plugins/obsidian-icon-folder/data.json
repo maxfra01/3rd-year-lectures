@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": "#483699",
+    "recentlyUsedIcons": [
+      "RiImageLine",
+      "RiFolderLine"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 2,
+      "right": 2,
+      "bottom": 2,
+      "left": 2
+    }
+  },
+  "Reti di Calcolatori": "RiFolderLine",
+  "Sistemi elettrici, tecnologie, misure": "RiFolderLine",
+  "Sistemi operativi": "RiFolderLine",
+  "Teoria ed elaborazione dei segnali": "RiFolderLine",
+  "Reti di Calcolatori/images": "RiImageLine",
+  "Sistemi elettrici, tecnologie, misure/images": "RiImageLine",
+  "Sistemi operativi/images": "RiImageLine",
+  "Teoria ed elaborazione dei segnali/images": "RiImageLine"
+}

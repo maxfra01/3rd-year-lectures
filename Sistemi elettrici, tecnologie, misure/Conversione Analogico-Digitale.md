@@ -25,6 +25,11 @@ Di fatto il **Full Range** dei valori viene diviso in intervalli e vi si associa
 Poichè il campionamento avviene in istanti discreti ben precisi facciamo uso di un treno di impulsi dipendente dalla frequenza di campionamento per tener conto solo dei valori che ci interessano: $$ s(t)=\sum_{k=-\infty}^{\infty}\delta(t-kT_c)$$
 Basta poi semplicemente molitplicare i valori ottenuti del segnale per il treno di impulsi per ottenere il risultato desiderato: $$x[kT_c]=x(t)\sum_{k=-\infty}^{\infty}\delta(t-kT_c)$$
 Ripetendo i passaggi nel dominio della frequenza si ottiene un risultato analogo: $$X_c(\omega)=X(\omega)*S(\omega)=\omega_c\sum_{k=-\infty}^{\infty}X(\omega-k\omega_c)$$
+Come decidere la frequenza di campionamento?
+La soluzione dipende dalla modalità di interpolazione e dalla precisione che vogliamo ottenere:
+- se vogliamo un tipo di interpolazione **troncata (sync)** allora cerchiamo valori che rispettino la condizione $10>\frac{f_c}{f_{max}}>2.5$
+- per l'interpolazione **lineare** allora $20>\frac{f_c}{f_{max}}>10$
+- per la **dots mode** allora: $\frac{f_c}{f_{max}}>20$
 
 
 ## Quantizzazione
@@ -100,7 +105,7 @@ Le differenze fra i due sono:
 
 ### Numero di bit effettivi
 
-Considerando la totalità degli errori possibili (vedere calcoli [[Pasted image 20220929145417.png]]) otteniamo un'incertezza del tipo: $$\delta V_{in}=(A portata + B Lettura)V$$
+Considerando la totalità degli errori possibili (vedere calcoli [[Pasted image 20220929145417.png]]) otteniamo un'incertezza del tipo: $$\delta V_{in}=(A \space  portata + B \space Lettura)V$$
 Possimao misurare il numero di bit effettivi come il numero di bit per rappresentare gli $N$ livelli:
 $$Nb^E=log_2\left(\frac{2^{N_b}}{2E_q'}\right)$$
 dove $E_q'=E_q+E_g+E_0+E_I$ .
