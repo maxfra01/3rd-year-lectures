@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1a1c72efbe9057e9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md",
-            "mode": "source",
-            "source": false
+        "id": "ce86807590d0a410",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b349feb590f349f3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +33,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -77,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,30 +118,39 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "0e89ff4c1e0ec9af",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "1a1c72efbe9057e9",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "e2851abea1e9fb60",
   "lastOpenFiles": [
-    "Teoria ed elaborazione dei segnali/Sistemi lineari.md",
+    "2022-10-14.md",
+    "Sistemi operativi/File System.md",
     "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md",
-    "Reti di Calcolatori/Protocolli a finestra.md",
-    "Sistemi elettrici, tecnologie, misure/Multimetri digitali.md",
-    "Sistemi elettrici, tecnologie, misure/ADC nella strumentazione di misura.md",
-    "Reti di Calcolatori/Architetture e OSI.md",
-    "Reti di Calcolatori/images/Pasted image 20221010144824.png",
-    "Reti di Calcolatori/images/Pasted image 20221010145716.png",
-    "Reti di Calcolatori/images/Pasted image 20221010150519.png",
-    "Reti di Calcolatori/Definizioni ITU_T e topologie.md"
+    "Sistemi operativi/Introduzione ai SO.md",
+    "Sistemi operativi/images/Pasted image 20221013222021.png",
+    "Sistemi operativi/images/Pasted image 20221013222210.png",
+    "Sistemi operativi/images/Pasted image 20221013222521.png",
+    "Sistemi operativi/images/Pasted image 20221013222916.png",
+    "Teoria ed elaborazione dei segnali/Grandezze di interesse sui segnali.md",
+    "prova.md"
   ]
 }

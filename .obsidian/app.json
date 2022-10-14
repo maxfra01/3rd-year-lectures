@@ -1,3 +1,9 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "showInlineTitle": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "it",
+    "en-GB"
+  ]
 }

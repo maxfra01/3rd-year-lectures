@@ -1,5 +1,5 @@
 # Architettura di un oscilloscopio digitale
-
+---
 Come tutti i dispositivi di questa tipologia, il DSO presenta il seguente schema (generico) con le componenti 'base' che consentono l'elaborazione, la memorizzazione e la visualizzazione dl segnale.
 
 ![[Pasted image 20220929184736.png]]
@@ -13,7 +13,7 @@ Tra i componenti abbiamo:
 
 
 # Schema operativo 1
-
+---
 Un primo tipo si sistema DSO è rappresentato nel seguente schema che verrà trattato in dettaglio per ogni componente:
 
 ![[Pasted image 20220929185441.png]]
@@ -31,6 +31,23 @@ Ora andiamo in profondità con l'analisi dello schema:
 
 ![[Pasted image 20220929185823.png]]
 
+La linearità e la stabilità dei componenti participano alla determinazione dell'incertezza.
+Questo blocco agisce come un **filtro passa basso**, di cui ci viene fornita la banda passante $B$ a -3dB: di fatto la frequenza di taglio è superiore pari a $B$.
+- Dunque un segnale con frequenza $B$ è attenuato del 30%.
+Se si vuole ridurre l'attenuazione sull'ampiezza allora si applica la "regola del 5x" ovvero:
+$$
+B=5\cdot f_{max}
+$$
+dove $f_{max}$ è la più alta componente in frequenza del segnale in misura.
+La banda pone anche un limite al **tempo di salita** secondo la relazione:
+$$
+t_{so}=\frac{K}{B}
+$$
+dove $K$ rappresenta una costante con valori fra $0.35$ e $0.45$.
+Le modalità del selettore di ingresso sono:
+- ground (GND)
+- Coupling DC
+- Coupling AC, in questa modalità la risposta del DSO agisce da filtro passa basso con $f_{t}$ dell'ordine di alcuni $Hz$.
 
 
 ### Processo di acquisizione

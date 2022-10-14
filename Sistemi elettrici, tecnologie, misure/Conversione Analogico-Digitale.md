@@ -1,4 +1,5 @@
 # Tipologie di segnale
+---
 - Analogico: le grandezze fisiche che misuriamo si esprimo come funzioni continue di variabili continue $$ x(t)=f(t)$$
 - Digitale: le grandezze assumo solo quantità discrete di valori, si rappresentano dunque come funzioni discrete di variabili discrete $$ x[kt]=f[ kT_c ]$$
 Perchè scegliere il segnale digitale rispetto all'analogico?
@@ -6,9 +7,9 @@ Perchè scegliere il segnale digitale rispetto all'analogico?
 - sono facilmente memorizzabili in volumi ridotti
 - facilmente trasmissibili a distanza
 
----
-# Le fasi della conversione
 
+# Le fasi della conversione
+---
 Per convertire correttamente un segnale analogico in uno digitale distinguiamo 3 fasi:
 - Il **campionamento 
 - La **quantizzazione
@@ -33,7 +34,6 @@ La soluzione dipende dalla modalità di interpolazione e dalla precisione che vo
 
 
 ## Quantizzazione
-
 Processo per il quale si assegna uno stato codificato al segnale in ingresso: questo processo è applicato tramite la **caratteristica ingresso/uscita** di un **convertitore analogico digitale (ADC)**.
 Un po' di definizioni:
 - Tensione di Full Range: intero campo di misura (in pratica l'intero intervallo).
@@ -58,10 +58,10 @@ Per mantenere il segnale circa costante si fa uso di un circuito analogico **Sam
 
 ![[Pasted image 20220928192156.png]]
 
+
+
+# Tipologie di errori
 ---
-
-## Tipologie di errori
-
 ### Errore di fuori zero
 offset presente tra la caratteristica nominale e quella reale dell'ADC.
 Il costruttore indica in LSB il valore $\pm E_{0max}$ che corrisponde al massimo valore di fuori zero per tutta la famiglia di dispositivi.
