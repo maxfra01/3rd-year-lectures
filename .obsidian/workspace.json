@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ce86807590d0a410",
+        "id": "8d63260946aabc4b",
         "type": "tabs",
         "children": [
           {
-            "id": "b349feb590f349f3",
+            "id": "3878d95c5a554ce0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/Introduzione ai SO.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sistemi operativi/Introduzione ai SO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Sistemi operativi/Introduzione ai SO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Sistemi operativi/Introduzione ai SO.md"
+              }
             }
           },
           {
@@ -130,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -142,15 +150,15 @@
   },
   "active": "e2851abea1e9fb60",
   "lastOpenFiles": [
-    "2022-10-14.md",
-    "Sistemi operativi/File System.md",
-    "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md",
+    "Sistemi operativi/Processi.md",
     "Sistemi operativi/Introduzione ai SO.md",
-    "Sistemi operativi/images/Pasted image 20221013222021.png",
-    "Sistemi operativi/images/Pasted image 20221013222210.png",
-    "Sistemi operativi/images/Pasted image 20221013222521.png",
-    "Sistemi operativi/images/Pasted image 20221013222916.png",
-    "Teoria ed elaborazione dei segnali/Grandezze di interesse sui segnali.md",
-    "prova.md"
+    "Sistemi operativi/File System.md",
+    "Reti di Calcolatori/Architetture e OSI.md",
+    "Reti di Calcolatori/Trasmissione nelle reti.md",
+    "Reti di Calcolatori/Protocolli a finestra.md",
+    "2022-10-18.md",
+    "Sistemi elettrici, tecnologie, misure/Elettronica/images/Pasted image 20221018105450.png",
+    "Sistemi elettrici, tecnologie, misure/Elettronica/Amplificatori.md",
+    "Sistemi elettrici, tecnologie, misure/Elettronica/images/Pasted image 20221018103212.png"
   ]
 }

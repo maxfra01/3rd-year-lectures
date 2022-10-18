@@ -47,3 +47,72 @@ Nel caso di canali non sequenziali si possono verificare eventi di perdita e/o d
 
 # Go Back N
 ---
+Il metodo di stop n wait è soggetto a elevati ritardi per l'attesa dell'ack di ogni pacchetto.
+La soluzione a ciò consiste nel **trasmettere più PDU prima di fermarsi in attesa delle conferme**.
+
+**Finestra di trasmissione** $W_{T}$: quantità massima di PDU che è possibile inviare in rete senza aver ricevuto alcun riscontro.
+La dimensione di quest'ultima dipende dalla memoria allocabile in rete.
+Inoltre $W_{T}$ rappresenta anche il numeor massimo di PDU presenti contemporanemente sul canale o in rete.
+
+**Finestra di ricezione $W_{R}$**: quantità massima di PDU che un ricevitore è disposto ad accettare e memorizzare.
+Anche questa dipende dalla memoria allocabile in ricezione.
+
+Come funzion il Go Back N?
+Il trasmettitore copia fino ad N = $W_{T}$ PDU che vuole inviare e le trasmette.
+Attiva un solo orologio per le N PDU.
+Attende gli ACK.
+Per ogni ACK non duplicato che riceve shifta la finestra si trasmissione in avanti quanti sono i pacchetti confermati.
+Se scade il timeout, ripete la trasmissione delle PDU non confermate.
+
+Dal lato RX invece si controlla la correttezza della PDU, se lo è si controlla il numero di sequenza e si manda l'ACK.
+Inoltre se la PDU risulta essere la prima della sequenza si consegna la SDU relativa a livelli superiori.
+
+- $W_{T}>1$ in trasmissione
+- $W_{R}=1$ in ricezione (come lo stop n wait)
+
+### Come decidere la sematica dell'ACK?
+Dato che può variare, il TX e RX si mettono preventivamente d'accordo.
+- ACK cumulativo, si manda il numero di sequenza che mi aspetto ("Ho ricevuto tutto fino ad n escluso, dunque ora mandami n")
+- ACK selettivo, si manda indietro il numero del pacchetto ricevuto ("Ok bene ho ricevuto il pacchetto n")
+- NAK (Negative acknowledgment), non si manda un ack ma si manda un negative(n) quando voglio la ritrasmissione del pacchetto ennesimo.
+- PiggyBacking, tecnica possibile nei flussi bidirezionali di pacchetti che consiste nel mettere l'ACK nella PDU che viaggia in direzione opposta
+
+![[Pasted image 20221018142916.png]]
+
+La numerazione delle PDU dovrebbe essere univoca, eppure si usa un metodo ciclico. (k bit di numerazione, ciclo dopo $2^k$ pacchetti)
+
+![[Pasted image 20221018143159.png]]
+
+### Go back n VS stop n wait
+Nel go back N il TX è più complesso, deve gestire orologio, algortimi e memoria, il RX è identico
+La finestra di trasmissione deve avere misure specifiche ($W_{T}<2^k$)
+
+
+# Selective Repeat
+---
+Il limite del go back n è l'accettare solamente PDU in sequenza corretta, mentre il Selective repeat accetta tutte le PDU corrette, anche non in sequenza.
+In sostanza sia la finestra di trasmissione e quella di ricezione hanno dimensione maggiore di 1 (dimensioni uguali).
+
+Come funziona TX e RX?
+Da parte del TX non c'è variazione rispetto al go back n.
+Il ricevitore controlla, e se è in sequenza consegna al livello superiore.
+Altrimenti se è dentro $W_{R}$ la memorizza, se è fuori dalla finestra la scarta.
+Invia un ACK relativo all'ultima PDU ricevuta in sequenza.
+
+### Quando conviene questa tecnica?
+- nel caso di perdita singola, avremo prestazioni simili al go back n.
+- Vantaggioso nel caso di perdite multiple, perchè basta che ne arrivi una copia al RX
+- Vantaggioso se RTT < tempo di trasmissione della finestra
+- Vantaggioso se applico ACK selettivi
+
+### Osservazione
+Vale sempre la relazione:
+$$
+W_{T}+W_{R}\leq 2^k
+$$
+dove $k$ sono i bit di memorizzazione
+Throughput della comunicazione con selective repeat:
+$$
+\theta=\eta C
+$$
+Dove $C$ è la capacità del canale e $\eta$ rappresenta l'efficienza

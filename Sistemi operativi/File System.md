@@ -203,7 +203,7 @@ Questo però comporta una serie di svantaggi:
 - dimensione della fat critica
 
 ### Allocazione indicizzata
-Puntatori organizzati in ua tabella di puntatori detta **Blocco indice, i-node**, ogni file dunque ha la sua tabella (che sostanzialmente è un vettore)
+Puntatori organizzati in una tabella di puntatori detta **Blocco indice, i-node**, ogni file dunque ha la sua tabella (che sostanzialmente è un vettore)
 L'i-esimo elemento di questo vettore individua l'i-esimo blocco del file.
 
 ![[Pasted image 20221013225934.png]]
