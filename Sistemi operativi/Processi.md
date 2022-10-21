@@ -113,3 +113,53 @@ Per comprendere a pieno vedere [[Thread]].
 
 Quando un processo termina, il kernel invia il segnale **SIGCHLD** al padre (evento asincrono), il quale può decidere se gestire la terminazione del figlio o ignorarla (scelta di default).
 
+Nel caso si scelga la gestione della terminazione, allora essa può essere sincrona o asincrona.
+Nel caso sincrono uso le syscall `wait` e `waitpid`
+
+![[Pasted image 20221020163445.png]]
+
+### wait 
+
+```
+#include <sys/wait.h>
+
+pid_t wait (int *statLoc);
+```
+
+Comportamento della wait:
+- Se il processo non ha figli, la wait ritornerà un errore pari a $-1$.
+- Se il processi ha figli, ma sono tutti in esecuzione allora la wait blocca il processo. Quando uno qualunque dei figli termina allora si sblocca il processo padre e si ritorna al chiamante il PID del figlio e lo stato.
+- Se uno dei figli ha già terminato allora la wait ritornerà il PID del figlio e lo stato di questa terminazione.
+
+Il sistema operativo tiene in memoria lo stato e il PID di ogni processo terminato finchè non sono recuperati dal padre.
+Il parametro `statLoc` indica lo stato di terminazione del processo figlio terminato. E' un puntatore a intero, e le macro sono specificate nella libreria.
+
+(WIFEXITED è vero se la terminazione è stata corretta)
+(WEXITSTATUS cattura gli 8 LSB del parametro passato a exit)
+
+
+### waitpid
+
+```
+#include "sys/wait.h"
+
+pid_t waitpid(pid_t pid, int *statLoc, int options);
+```
+
+Comportamento al variare di pid:
+- $-1$ aspetta un qualunque figlio, come wait
+- si aspetta il figlio con il PID se $>0$.
+
+Se options ha WNOHANG, allora il chiamante non si ferma se il figlio con il PID non è ancora terminano
+
+# Altre definizioni
+---
+
+### Processi Zombie
+Un processo terminato per il quale il padre non ha ancora eseguito una wait si dice **zombie**.
+Occorre fare la wait per alleggerire il sistema operativo.
+
+### Processi orfani
+Se un processo padre termina prima del figlio, allora il figlio diventa un processo **orfano**.
+Normalmente i processi orfani vengono ereditati da **init o custom init**.
+Dato che init non termina mai, i processi orfani non possono diventare zombie

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8d63260946aabc4b",
+        "id": "d30e7edd4c21217e",
         "type": "tabs",
         "children": [
           {
-            "id": "3878d95c5a554ce0",
+            "id": "ae4a1c171f23bfef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Introduzione ai SO.md",
+                "file": "Teoria ed elaborazione dei segnali/Sistemi lineari.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0735f6200da85088",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoria ed elaborazione dei segnali/Diagrammi a blocchi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Introduzione ai SO.md",
+                "file": "Teoria ed elaborazione dei segnali/Diagrammi a blocchi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Introduzione ai SO.md",
+                "file": "Teoria ed elaborazione dei segnali/Diagrammi a blocchi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Introduzione ai SO.md"
+                "file": "Teoria ed elaborazione dei segnali/Diagrammi a blocchi.md"
               }
             }
           },
@@ -148,17 +161,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e2851abea1e9fb60",
+  "active": "0735f6200da85088",
   "lastOpenFiles": [
+    "Teoria ed elaborazione dei segnali/Sistemi lineari.md",
+    "Teoria ed elaborazione dei segnali/Diagrammi a blocchi.md",
+    "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md",
+    "Teoria ed elaborazione dei segnali/Filtri.md",
+    "Sistemi operativi/images/Pasted image 20221020163445.png",
+    "Drawing 2022-10-20 17.36.35.excalidraw.md",
     "Sistemi operativi/Processi.md",
-    "Sistemi operativi/Introduzione ai SO.md",
-    "Sistemi operativi/File System.md",
-    "Reti di Calcolatori/Architetture e OSI.md",
-    "Reti di Calcolatori/Trasmissione nelle reti.md",
-    "Reti di Calcolatori/Protocolli a finestra.md",
+    "Reti di Calcolatori/OSI- Strato Fisico.md",
     "2022-10-18.md",
-    "Sistemi elettrici, tecnologie, misure/Elettronica/images/Pasted image 20221018105450.png",
-    "Sistemi elettrici, tecnologie, misure/Elettronica/Amplificatori.md",
-    "Sistemi elettrici, tecnologie, misure/Elettronica/images/Pasted image 20221018103212.png"
+    "Sistemi elettrici, tecnologie, misure/Elettronica/Amplificatori.md"
   ]
 }

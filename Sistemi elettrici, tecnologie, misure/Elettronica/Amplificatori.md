@@ -1,4 +1,4 @@
-# Introduzione
++# Introduzione
 ---
 Considerando l'amplificatore come un blocco funzionale, desideriamo il seguente effetto:
 
