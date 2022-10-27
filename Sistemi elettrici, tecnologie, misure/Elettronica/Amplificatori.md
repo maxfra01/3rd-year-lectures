@@ -193,3 +193,60 @@ SR^- <\frac{ \partial v_{out} }{ \partial t } < SR^+
 $$
 Il segnale in uscita non può avere pendenza superiore allo slew rate.
 
+
+# Rumore
+---
+Il segnale che consideriamo è sovrapposto del **rumore**, variazione a cui non è associata informazione.
+Altre fonti di rumore sono le interferenze di altri dispositivi.
+Il rumore fuori dalla banda del segnale deve essere filtrato.
+
+Definiamo il **SIGNAL-to-NOISE RATIO (SNR)** come rapporto fra la potenza del segnale e di rumore su un dato carico.
+$$
+SNR=\frac{P_{signal}}{P_{noise}}=\frac{\overline{v}^2}{\overline{n}^2}
+$$
+In un amplificatore ideale, dove entra un segnale del tipo $x +n_{0}$ otteniamo un'uscita pari a $y=Ax+An_{0}$ e ci aspettiamo la seguente relazione:
+$$
+SNR_{out}=SNR_{in}
+$$
+Mentre in un amplificatore reale otteniamo:
+$$
+SNR_{out}<SRN_{in}
+$$
+
+Essendo l'amplificatore un circuito elettrico, allora esso aggiunge rumore alla sua uscita.
+Se considero diversi amplificatori collegati in cascata:
+
+![[Pasted image 20221024085953.png]]
+
+Calcolando l'uscita possiamo stimare un rumore equivalente al circuito:
+$$
+n_{eq}=\frac{n_{1}}{A_{1}}+ \frac{n_{2}}{A_{1}A_{2}}+ \frac{n_{3}}{A_{1}A_{2}A_{3}}$$
+Ovvero per ogni stadio il rumore è diviso per la relativa amplificazione e per tutte quelle che lo precedono.
+
+Considerando le amplificazione $\gg 1$ allora solamente il primo stadio è critico in quanto gli altri sono trascurabili.
+Il primo amplificatore per questo è definito **LNA Low Noise Amplifier**.
+
+
+# Offset
+---
+E' presente un errore di fuori zero $\Delta X$ dovuto alle tolleranze di fabbricazione. Anch'esso viene amplificato "sporcando" il segnale.
+
+Oltre al fuori zero, c'è una tolleranza di fabbricazione del 20% su circa tutti i parametri dell'amplificatore (non accettabile).
+
+Per ottenere amplificatori più precisi $\implies$ **principio della retroazione**.
+
+
+# Distorsione non-lineare
+---
+Anche rispettando le condizioni per le limitazioni di dinamica la caratteristica ingresso-uscita dell'amplificatore non è lineare.
+Si parla dunque di **distorsione non lineare**, e per quantificarla possiamo approssimarla come uno sviluppo di taylor di ordine $>1$ nell'intorno del punto di lavoro.
+$$
+y=Ax+A_{2}x^2+A_{3}x^3+\dots
+$$
+Il primo termine corrisponde all'amplificazione lineare, mentre da lì in poi di parla di $d(x)$, errore dovuto alla linearità.
+
+![[Pasted image 20221024092632.png]]
+
+Per i segnali sinusoidali, la non linearità di ordine $n$ da luogo ad errore a frequenza $n\omega_{0}$
+
+Per realizzare nella pratica un amplificatore si fa uso di [[Transistor]]. 
