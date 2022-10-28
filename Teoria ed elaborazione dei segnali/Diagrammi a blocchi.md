@@ -98,7 +98,11 @@ Esiste questa definizione in versione monolatera.
 Per distorsione di un sistema generico si intende che l'uscita non ha le stesse caratteristiche del segnale in ingresso. (la "forma è modificata").
 Nei sistemi lineari si parla di **distorsione lineare**.
 
-Dato che un'amplificazione o un ritardo non modificano la forma del segnale, allora la condizione di non distorsione richiede modulo costante e fase lineare **all'interno della banda del segnale in ingresso (condizione sufficiente)**
+Considero un'uscita del tipo:
+$$
+y(t)=A\cdot x(t-t_{D})
+$$
+Dato che un'**amplificazione o un ritardo non modificano la forma del segnale**, allora la condizione di non distorsione richiede modulo costante e fase lineare **all'interno della banda del segnale in ingresso (condizione sufficiente)**
 $$
 H(f)=j \cdot e^{-2j\pi t_{D}f}
 $$

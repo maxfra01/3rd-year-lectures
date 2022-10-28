@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d30e7edd4c21217e",
+        "id": "a62635d44db8ea40",
         "type": "tabs",
         "children": [
           {
-            "id": "ae4a1c171f23bfef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoria ed elaborazione dei segnali/Sistemi lineari.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0735f6200da85088",
+            "id": "1301943e917bc984",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c556ac04022b3a5f",
@@ -158,20 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "0735f6200da85088",
+  "active": "1301943e917bc984",
   "lastOpenFiles": [
     "Teoria ed elaborazione dei segnali/Sistemi lineari.md",
-    "Teoria ed elaborazione dei segnali/Diagrammi a blocchi.md",
+    "Sistemi operativi/File System.md",
+    "Sistemi operativi/Segnali.md",
+    "Pasted image 20221027141808.png",
+    "Sistemi operativi/Processi - parte 2.md",
+    "Reti di Calcolatori/OSI - Strato Collegamento.md",
     "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md",
-    "Teoria ed elaborazione dei segnali/Filtri.md",
-    "Sistemi operativi/images/Pasted image 20221020163445.png",
-    "Drawing 2022-10-20 17.36.35.excalidraw.md",
-    "Sistemi operativi/Processi.md",
-    "Reti di Calcolatori/OSI- Strato Fisico.md",
-    "2022-10-18.md",
-    "Sistemi elettrici, tecnologie, misure/Elettronica/Amplificatori.md"
+    "Teoria ed elaborazione dei segnali/Rappresentazione vettoriale dei segnali.md",
+    "Sistemi elettrici, tecnologie, misure/Elettronica/Transistor.md",
+    "2022-10-25.md"
   ]
 }
