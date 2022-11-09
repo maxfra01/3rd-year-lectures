@@ -1,6 +1,6 @@
 # Richiami di geometria
 
-L'obiettivo di questa sezione è quello di adattare tecniche sui vettori per usarle per l'analisi dei segnali; in particolare cercheremo di rappresentare un segnale come un **vettore di numeri**.
+L'obiettivo di questa sezione è quello di adattare tecniche sui vettori per usarle per l'analisi dei delle [[Grandezze di interesse sui segnali]]; in particolare cercheremo di rappresentare un segnale come un **vettore di numeri**.
 
 Alcune definizioni di vettori estese ai segnali:
 

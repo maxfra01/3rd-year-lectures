@@ -226,3 +226,10 @@ Allora si dimostra che:
 $$
 d \cdot D \geq \frac{1}{2}
 $$
+
+
+
+
+
+
+[[Rappresentazione vettoriale dei segnali]].

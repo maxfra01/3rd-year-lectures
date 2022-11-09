@@ -132,3 +132,7 @@ L'attuale infrastruttra delle reti di trasporto è basata sulle tecnologie:
 Sovente la topologia è ad anelli bidirezionali per motivi di affidabilità.
 
 In SONET/SDH si trasmette una sequenza continua di bit a una certa velocità, con tecnica della multiplazione di tempo; ogni trama temporale contiene **informazioni di sincronizzazione, canali vocali di servizio, gestione guasti ed errori**.
+
+
+
+strato successivo: [[OSI - Strato Collegamento]]

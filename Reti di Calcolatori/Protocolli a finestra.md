@@ -1,6 +1,6 @@
 # Definizioni 
 ---
-Sono protocolli che compaiono in quasi tutte le reti telematiche, hanno lo scopo di:
+Sono protocolli che compaiono in quasi tutte le reti telematiche, in ambito della [[Trasmissione nelle reti]], hanno lo scopo di:
 - Recuperare gli errori di trasmissione
 - controllo del flusso di trasmissione
 - controllo di sequenza

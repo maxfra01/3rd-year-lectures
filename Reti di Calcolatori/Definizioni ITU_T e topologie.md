@@ -5,6 +5,7 @@
 - Commutazione: processo di interconnesioni di unità funzionali.
 - Trasmissioni: trasferimento di segnali punto a punto.
 - Gestione: tutte le operazioni restanti
+- [[Protocolli a finestra]]
 
 ### Definizioni e Topologie per le reti
 - Mezzo trasmissivo: mezzo fisico in grado di trasportare segnali.

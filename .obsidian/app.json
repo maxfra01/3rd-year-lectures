@@ -2,5 +2,12 @@
   "promptDelete": false,
   "showInlineTitle": false,
   "spellcheck": true,
-  "spellcheckLanguages": []
+  "spellcheckLanguages": [],
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

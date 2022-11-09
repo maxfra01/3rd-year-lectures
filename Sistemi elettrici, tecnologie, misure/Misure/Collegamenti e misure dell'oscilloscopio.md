@@ -92,3 +92,5 @@ Come calcolarne l'incertezza?
 Assumiamo come nel caso precedente che le incertezza siano uguali e pari a 0.05.
 Non posso ricorrere ai casi notevoli, ovvero non posso sommare le incertezze, perchè il numeratore e denominatore dipendono da una stessa variabile, dunque non sono indipendenti.
 Uso la regola delle derivate parziali.
+
+[[Incertezze, modello deterministico]]

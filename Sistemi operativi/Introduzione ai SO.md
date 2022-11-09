@@ -16,7 +16,7 @@ Non esiste una definizione universale, ma possiamo definirlo in due approcci:
 Tra i più comuni e quelli che tratteremo di più:
 - Interprete dei comandi
 - Gestione dei processi
-- Gestione file e File System
+- Gestione file e [[File System]]
 - Altri aspetti minori
 
 # Terminologia e concetti base

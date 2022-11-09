@@ -139,3 +139,5 @@ A differenza del sequenziale, il random sampling non garantisce l'acquisizione d
 
 Come posso accorgermi di fenomeni di **aliasing**?
 Osservando forme d'onda non congruenti al variare della configurazione della base tempi.
+
+Per vedere come collgare oscilloscopio in lab vedere [[Collegamenti e misure dell'oscilloscopio]].

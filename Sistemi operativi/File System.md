@@ -1,6 +1,6 @@
 # File
 ---
-Memorizzano informazioni a lungo termine indipendentemente da alimentazione, terminazione di un processo ecc...
+Memorizzano informazioni a lungo termine indipendentemente da alimentazione, terminazione di [[Processi]] ecc...
 Logicamente un file è visto come:
 - Insieme di informazione correlate tramite un sistema di **codifica**.
 - Spazio di indirizzamento continuo

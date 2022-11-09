@@ -91,3 +91,6 @@ Se vogliamo invece realizzare noi i collegamenti a quattro morsetti, laddove non
 # Altri contributi di incertezza
 ---
 Si ricorda di fornire specifiche riguardo lo stato dell'esperimento, ovvero equivale a fornire informazioni sulla corrente di prova e sulla temperatura.
+
+Vedi anche:
+[[Incertezze, modello deterministico]]

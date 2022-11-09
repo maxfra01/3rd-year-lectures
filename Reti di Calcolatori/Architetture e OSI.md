@@ -58,11 +58,13 @@ Ciò però non conviene, in quanto otterremo più intestazioni, occorre riassemb
 ![[Pasted image 20221010152300.png]]
 
 ### Livello fisico
+[[OSI - Strato Fisico]]
 E' lo strato che si occupa di trasferire le cifre binarie sul mezzo trasmissivo.
 Dunque fornisce specifiche per i mezzi meccanici, fisici, funzionali e le procedure per attivare e disattivare la connessione.
 Definisce ad esempio codifiche di linea, connettori, livelli di tensione ecc....
 
 ### Livello Collegamento
+[[OSI - Strato Collegamento]]
 Fornisce i mezzi e le procedure per trasferire informazioni fra il livello rete e per fronteggiare problemi al layer fisico.
 Tra le funzioni fondamentali abbiamo:
 - delimitazione delle unità dati

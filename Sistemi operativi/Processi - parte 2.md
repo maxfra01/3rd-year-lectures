@@ -14,13 +14,13 @@ ps -aux
 è possibile visualizzare in modo più o meno compatto i processi attivi in quel momento, con i loro dettagli. Se specificato **defunct** significa che è un processo zombie.
 
 
-Per terminare un segnale si utilizza il comando `kill`, con sintassi:
+Per terminare un processo si utilizza il comando `kill`, con sintassi:
 
 ```
 kill [-sig] pid
 ```
 
-Per l'elenco dei segnale usare `kill -l`
+Per l'elenco dei [[Segnali]] usare `kill -l`
 I segnali possono essere specificati tramite nome oppure numero.
 Il segnale di defult è `-SIGTERM` oppure `-TERM`.
 
