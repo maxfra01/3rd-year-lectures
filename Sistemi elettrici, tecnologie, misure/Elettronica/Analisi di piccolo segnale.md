@@ -23,11 +23,15 @@ A sinistra notiamo il valore costante di $V_{GS}$ che si può scostare in base a
 Perciò idealmente la corrente di drain dipende solamente dalla tensione in ingresso al gate.
 Per vedere quanto vale la $v_{DS}$ costruisco il grafico con la relazione di uscita, a destra.
 
->Il punto $Q$ in cui è centrato il segnale sinusoidale è detto **punto di quiescenza** o **punto di lavoro**, e si può determinare applicando al circuito solamente la tensione di indice ($V_{GS}$). In tal modo troviamo solamente un punto sul grafico.
+```ad-note
+Il punto $Q$ in cui è centrato il segnale sinusoidale è detto **punto di quiescenza** o **punto di lavoro**, e si può determinare applicando al circuito solamente la tensione di indice ($V_{GS}$). In tal modo troviamo solamente un punto sul grafico.
+```
 
->I termini di tensione scritti in maiuscolo e minuscolo sono quelli completi.
->Quelli solo maiuscoli indicano la componente continua (componente di polarizzazione).
->Quelli solo minuscoli indicano il segnale (variazioni).
+```ad-note
+I termini di tensione scritti in maiuscolo e minuscolo sono quelli completi.
+Quelli solo maiuscoli indicano la componente continua (componente di polarizzazione).
+Quelli solo minuscoli indicano il segnale (variazioni).
+```
 
 Avendo una dipendenza quadratica fra la corrente e la tensione in ingresso, produciamo anche la seconda armonica e quindi del rumore.
 Per ovviare a ciò introduciamo il concetto della **Linearizzazione** che cerca di sostituire alla relazione quadratica la tangente in un intorno del punto di lavoro.

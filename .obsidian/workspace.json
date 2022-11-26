@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "746e55dfef560e0f",
+        "id": "be32fb9172562b44",
         "type": "tabs",
         "children": [
           {
-            "id": "0ce603641e50cecf",
+            "id": "f9e49458b9cd2c2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Calcolatori/Architetture e OSI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23be1e07e63dbd01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSI - Strato Rete.md",
+                "file": "Teoria ed elaborazione dei segnali/ENS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,35 +80,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0bce334139b7bbd7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "OSI - Strato Rete.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "00b85705f5b1cd68",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "OSI - Strato Rete.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "52e14168be35c90d",
             "type": "leaf",
             "state": {
@@ -133,21 +91,42 @@
             }
           },
           {
-            "id": "e3933e17cf316e27",
+            "id": "4ccc428b29738b75",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "OSI - Strato Rete.md"
+                "file": "Teoria ed elaborazione dei segnali/ENS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0e89ff4c1e0ec9af",
+            "id": "de2f4248b3b8c719",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "outgoing-link",
+              "state": {
+                "file": "Teoria ed elaborazione dei segnali/ENS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "137eb4936653de38",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Teoria ed elaborazione dei segnali/ENS.md"
+              }
             }
           }
         ]
@@ -157,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "23be1e07e63dbd01",
+  "active": "f9e49458b9cd2c2d",
   "lastOpenFiles": [
-    "Reti di Calcolatori/Routing.md",
     "Untitled.md",
-    "Reti di Calcolatori/Architetture e OSI.md",
-    "Amplificatori a MOS.md",
-    "Sistemi elettrici, tecnologie, misure/Elettronica/Analisi di piccolo segnale.md",
-    "Sistemi elettrici, tecnologie, misure/Elettronica/Transistor.md",
-    "Teoria ed elaborazione dei segnali/Serie e trasformata di Fourier.md",
-    "Teoria ed elaborazione dei segnali/Grandezze di interesse sui segnali.md",
-    "Teoria ed elaborazione dei segnali/Auto Correlazione.md",
-    "Teoria ed elaborazione dei segnali/Diagrammi a blocchi.md"
+    "Teoria ed elaborazione dei segnali/ENS.md",
+    "Sistemi operativi/Libreria Pthread.md",
+    "Reti di Calcolatori/OSI 3 - Strato Rete.md",
+    "Reti di Calcolatori/Tool Analisi Rete.md",
+    "Sistemi elettrici, tecnologie, misure/Misure/DSO Digital Storage Oscilloscope.md",
+    "Sistemi elettrici, tecnologie, misure/Misure/Conversione Analogico-Digitale.md",
+    "Reti di Calcolatori/OSI 4 - Strato Trasporto.md",
+    "Reti di Calcolatori/Protocolli a finestra.md",
+    "Sistemi elettrici, tecnologie, misure/Elettronica/Amplificatori a MOS.md"
   ]
 }

@@ -118,7 +118,9 @@ Questo da origine a un problema, ovvero che il signal handler potrebbe eseguire 
 
 Sono nate perciò una famiglia di funzioni dette **rientranti (reentrant)** che possono essere interrotte senza problemi (read, write, sleep, wait).
 
->La maggior parte delle funzioni I/O standard di C non sono rientranti, ad esempio  una chiamata interrotta a printf può dare risultati inaspettati.
+```ad-note
+La maggior parte delle funzioni I/O standard di C non sono rientranti, ad esempio  una chiamata interrotta a printf può dare risultati inaspettati.
+```
 
 ### Race Conditions
 Il comportamento tra processi che lavorano su dati comuni dipende dall'ordine di esecuzioni, in sostanza esitono problemi di precedenza temporali.

@@ -36,7 +36,7 @@ E' possibile far comunicare due processi con un **parente comune**.
 
 ## Syscall pipe
 
-```
+```c
 #include "unistd.h"
 
 int pipe (int fileDescr[2]):
@@ -63,7 +63,7 @@ A livello di Shell una pipe può essere creata con il carattere '|' e quest'ulti
 
 Di fatto si viene a creare un collegamento fra lo stdout del primo comando e lo stdin del secondo e così via...
 
-```
+```bash
 ls -laR .c* | wc
 ```
 
@@ -72,11 +72,13 @@ Il termine redirezione indica l’associazione dei dispositivi standard a unità
 - stdout 1
 - stderr 2
 
-> Nel file `/dev/null` è possibile scrivere byte senza toccare la memoria, oppure è possibile leggere una serie di 0.
+```ad-hint
+Nel file `/dev/null` è possibile scrivere byte senza toccare la memoria, oppure è possibile leggere una serie di 0.
+``` 
 
 ## Redirezione dello stdin
 
-```
+```bash
 comando < file
 ```
 
@@ -84,7 +86,7 @@ In questo modo il comando prenderà lo stdin da file.
 
 ## Redirezione dello stdout
 
-```
+```bash
 comando > file
 comando >> file
 ```
@@ -96,13 +98,13 @@ Lo stderr è uguale a stdout
 ## Redirezione multipla
 E' possibile redirezionare allo stesso tempo stdout e stder con il comando:
 
-```
+```bash
 comando &> file
 comando &>> file
 ```
 
 Oppure in maniera separata con
 
-```
+```bash
 comando 1> file1 2> file2
 ```

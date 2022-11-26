@@ -6,7 +6,7 @@ Tramite la sintassi: `comando &` è possibile eseguire un processo un background
 
 Tramite il comando
 
-```
+```bash
 ps
 ps -aux
 ```
@@ -16,7 +16,7 @@ ps -aux
 
 Per terminare un processo si utilizza il comando `kill`, con sintassi:
 
-```
+```bash
 kill [-sig] pid
 ```
 
@@ -26,7 +26,7 @@ Il segnale di defult è `-SIGTERM` oppure `-TERM`.
 
 Per uccidere tutti i processi di un dato nome, è possibile usare:
 
-```
+```bash
 killall [-sig] name
 ```
 
@@ -77,7 +77,7 @@ Il PID del processo è il medesimo.
 
 ### Prototipi della exec
 
-```
+```c
 int execl (char *path, char *arg0, ..., (char *)0);
 int execlp (char *name, char *arg0, ..., (char *)0);
 int execle (char *path, char *arg0, ..., (char *)0, char *envp[]);
@@ -104,7 +104,7 @@ Dato che la exec sostituisce di fatto il processo con uno nuovo, quando ne incon
 La shell unix rispetta la seguente struttura in c:
 Esecuzione Foreground (il padre aspetta)
 
-```
+```c
 while (TRUE) {
 	write_prompt ();
 	read_command (command, parameters);
@@ -119,7 +119,7 @@ while (TRUE) {
 
 In Background il padre non attende il figlio:
 
-```
+```c
 while (TRUE) {
 write_prompt ();
 read_command (command, parameters);
@@ -137,7 +137,7 @@ read_command (command, parameters);
 
 ### System call system
 
-```
+```c
 #include "stdlib.h"
 
 int system(const char *string);

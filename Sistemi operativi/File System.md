@@ -42,7 +42,7 @@ Per usarli includiamo nel codice ``unistd.h
 
 ### OPEN
 
-```
+```c
 int open (const char *path, int flags, mode_t mode);
 ```
 
@@ -53,7 +53,7 @@ In caso di successo ritorna il descrittore del file, o -1 nel caso di errore (ch
 
 ### READ
 
-```
+```c
 int read (int fd, void *buf, size_t nbytes);
 ```
 
@@ -65,7 +65,7 @@ Il valore di ritono è
 
 ### WRITE
 
-```
+```c
 int write(int fd, void *buf, size_t nbytes);
 ```
 
@@ -76,7 +76,7 @@ Valori di ritorno:
 
 ### LSEEK
 
-```
+```c
 off_t lseek (int fd, off_t offset, int whence);
 ```
 
@@ -94,8 +94,8 @@ Valori di ritorno:
 
 ### CLOSE
 
-```
-int  close(int fd);
+```c
+int close(int fd);
 ```
 
 Chiude il file con descrittore `fd` 

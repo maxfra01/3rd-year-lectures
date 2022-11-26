@@ -43,7 +43,7 @@ In particolare gli ultimi due comandi hanno un corrispettivo **effective** ovver
 ---
 Nei sistemi UNIX un nuovo processo viene creato dalla system call **fork**. La funzione procede per clonazione del processo padre, ed è una funzione che viene chiamata una volta ma ritorna due volte.
 
-```
+```c
 #include <unistd.h>
 
 pid_t fork(void);
@@ -78,7 +78,7 @@ Inoltre per ogni processo che termina stampiamo il PID corrente e del padre.
 
 Si suppone di avere TC e TF, tempi di attesa di padre e figlio
 
-```
+```c
 pid=fork();
 if(pid==0){
 //siamo nel figlio
@@ -120,7 +120,7 @@ Nel caso sincrono uso le syscall `wait` e `waitpid`
 
 ### wait 
 
-```
+```c
 #include <sys/wait.h>
 
 pid_t wait (int *statLoc);
@@ -140,7 +140,7 @@ Il parametro `statLoc` indica lo stato di terminazione del processo figlio termi
 
 ### waitpid
 
-```
+```c
 #include "sys/wait.h"
 
 pid_t waitpid(pid_t pid, int *statLoc, int options);

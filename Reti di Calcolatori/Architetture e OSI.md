@@ -58,13 +58,13 @@ Ciò però non conviene, in quanto otterremo più intestazioni, occorre riassemb
 ![[Pasted image 20221010152300.png]]
 
 ### Livello fisico
-[[OSI - Strato Fisico]]
+[[OSI 1 - Strato Fisico]]
 E' lo strato che si occupa di trasferire le cifre binarie sul mezzo trasmissivo.
 Dunque fornisce specifiche per i mezzi meccanici, fisici, funzionali e le procedure per attivare e disattivare la connessione.
 Definisce ad esempio codifiche di linea, connettori, livelli di tensione ecc....
 
 ### Livello Collegamento
-[[OSI - Strato Collegamento]]
+[[OSI 2 - Strato Collegamento]]
 Fornisce i mezzi e le procedure per trasferire informazioni fra il livello rete e per fronteggiare problemi al layer fisico.
 Tra le funzioni fondamentali abbiamo:
 - delimitazione delle unità dati
@@ -72,6 +72,7 @@ Tra le funzioni fondamentali abbiamo:
 - controllo di flusso
 
 ### Livello rete
+[[OSI 3 - Strato Rete]]
 Fornisce i mezzi per instaurare, mantenere e abbattere le connessioni di rete tra entità di strato trasporto
 Tra le funzioni fondamentali:
 - instradamento
@@ -79,6 +80,7 @@ Tra le funzioni fondamentali:
 - tariffazione
 
 ### Livello Trasporto
+[[OSI 4 - Strato Trasporto]]
 Colma le carenze di qualità di servizio delleconnessioni di strato rete
 Funzioni fondamentali:
 - Controllo di errore
@@ -101,5 +103,6 @@ Risolve i problemi di compatibilità per quantoriguarda la rappresentazione dei 
 - Spesso integrato nelle funzioni del livello superiore
 
 ### Livello Applicazione
+[[OSI 7 - Strato Applicazione]]
 Fornisce ai processi applicativi i mezzi peraccedere all’ambiente OSI.
 Esempio di processi sono: trasferimento di file, posta elettronica e terminale virtuale.
