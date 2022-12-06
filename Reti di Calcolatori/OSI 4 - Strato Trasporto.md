@@ -106,3 +106,53 @@ In questo modo il trasmettitore invia una quantità di dati (non confermati ,una
 
 ![[Pasted image 20221123154449.png]]
 
+### Apertura e chiusura di una connessione
+
+E' presente una fase di **handshake** precedente alla comunicazione fra un trasmettitore e un ricevitore.
+
+![[Pasted image 20221128184036.png]]
+
+Per l'avvio di una comunicazione il tx manda un pacchetto con un numero di sequenza iniziale (parte da un numero random) e il SYN bit impostato a 1.
+Il ricevitore risponde con un ACK con ACKbit settato a 1, SYNbit a 1 e il numero di ACK è quello della sequenza ricevuta più uno.
+Il trasmettitore a questo punto manda ACK con ACKbit a 1 al ricevitore.
+
+Questa apertura con 3 messaggi è detta **3-way handshaking** (oppure SYN/SYNACK/ACK) e durante questo scambio iniziale si comunica anche MSS e Rwnd.
+
+Per chiudere la comunicazione si fa uso del **FINbit**
+
+![[Pasted image 20221128184333.png]]
+
+Notiamo che in questo caso entrambi mandano pacchetti con FIN settato in quanto la comunicazione in TCP è full-duplex.
+
+# Gestione della congestione in TCP
+---
+Quando ci sono troppe stazioni che trasmettono troppo e troppo velocemente allora è possibile che si verifichino **ritardo** o i buffer possono andare in overflow provocando lo **scartaggio dei pacchetti**.
+
+La **network assisted congestion control** prevede che i router mandano dei feedback sul loro stato, o dettino un rateo a cui mandare i messaggi per il trasmettitore.
+
+Molto più utilizzato ( e perchè vogliamo la complessità all'edge ) è la **end-end congestion control** cercando di modellare l'intera rete con un buffer:
+- se il buffer di rete è vuoto allora il tx può accelerare la trasmissione
+- se il buffer di rete è pieno allora tx dovrà rallentare
+Abbiamo quindi introdotto la **cwnd ovvero congestion windows**
+(E' lo stesso approccio del controllo di flusso)
+
+Gli algoritmi con cui si implementa end end congestion sono:
+
+### Additive Increase Multiplicative Decrease
+
+Di categoria **congestion-avoidance** l'idea di fondo è quello di far crescere la cwnd poco alla volta in maniera lineare fino a quando non si ha un perdita:
+- Ad ogni ACK rivevuto aumento MSS di 1/cwnd se non rilevo perdite (lineare)
+- Dimezzo di netto la cwnd se non ricevo un ACK
+
+![[Pasted image 20221128185724.png]]
+
+**TCP Slow Start** è n'alternativa e parte con un cwnd uguale a 1 e poi raddoppia a ogni ACK ricevuto (crescita esponenziale).
+
+### TCP Fair
+
+Nel caso di multiple connessione TCP l'algoritmo TCP è equo, e le multiple connessioni condividono la banda in maniera **equa**.
+
+![[Pasted image 20221128201515.png]]
+
+
+

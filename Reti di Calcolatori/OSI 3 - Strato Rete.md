@@ -303,7 +303,18 @@ Se sono in questa condizione posso non preoccuparmi degli indirizzi che uso.
 Per permetterci di usare indirizzi privati ma di navigare su internet esiste il **Network Address Translation NAT**.
 Anche lui utilizza una parte del livello trasporto [[OSI 4 - Strato Trasporto]].
 
-#fill
+![[Pasted image 20221205161638.png]]
+
+Ciò è molto comodo in quanto è possibile cambiare indirizzo IP nella rete locale senza dover avvisare il mondo intero, possono cambiare ISP senza cambiare tuti gli IP ma solamente uno.
+
+E' **compito del router** implementare il NAT seguendo le seguenti fasi:
+1. Ogni pacchetto in uscita va corretto sostituendo l'indirizzo IP sorgente con l'indirizzo IP NAT sorgente
+2. Ricordarsi le coppie (IPNAT,port#)-(IP source,port#)
+3. Per ogni pacchetto in entrata modificare la destinazione con il corretto IP della rete locale.
+
+Sorge però un problema: supponiamo che un client voglia contattare un dato server, che però si trova in una rete locale, dunque il client non riesce a contattarlo perchè l'unico indirizzo che conosce è il NAT router di quella rete.
+- Una **prima soluzione** consiste nel configurare staticamente il NAT in modo da associare una richiesta a una certa porta a un preciso server nella rete locale.
+- Una soluzione adottatta da Skype è l'uso di un server mediano per inoltrare i pacchetti: il client dentro alla LAN e quindi NAT client si connette a questo "ponte" e anche il client esterno lo fa, così il bridge è in grado di dirigere i pacchetti
 
 # ICMP: Internet Control Message Protocol
 ---

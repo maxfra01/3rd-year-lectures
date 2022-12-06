@@ -38,7 +38,7 @@ Utile per uccidere tutti i processi generati da un programma fuori controllo.
 Il sistema operativo tiene traccia per ogni processo di:
 - lo stato del processo
 - il suo relativo program counter
-Queste informazioni sono memorizzate nel **Process Control Block PCB**.
+Queste informazioni sono memorizzate nel **Process Control Block  PCB**.
 
 ### Stati di un processo
 

@@ -60,3 +60,6 @@ Il debug di script avviene in modo totale o parziale, per la totale basta indica
 
 ![[Pasted image 20221121110542.png]]
 
+### Condizioni e test
+
+![[Pasted image 20221202213047.png]]

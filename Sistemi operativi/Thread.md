@@ -74,3 +74,4 @@ In un contesto multithread la fork duplica solo il thread che l'ha richiamata. E
 
 ## Exec
 La exec sostituisce tutto il processo con il nuovo programma, non solo il thread che lo chiama.
+

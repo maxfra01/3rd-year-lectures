@@ -128,7 +128,7 @@ $$
 
 Si dimostra che affinchè un sistema sia stabile:
 $$
-stabile \leftrightarrow \int |h(t)| \, dt <\infty \implies|H(f)|<\infty \space \forall f 
+\textrm{stabile} \quad  \leftrightarrow \int |h(t)| \, dt <\infty \implies|H(f)|<\infty \space \forall f 
 $$
 
 # Filtri realizzabili
