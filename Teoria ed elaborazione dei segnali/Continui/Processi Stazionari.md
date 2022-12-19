@@ -44,7 +44,7 @@ $$
 
 Per un WSS REALI abbiamo autocorrelazione:
 - pari
-- nell'origine è pari al valor quadratico medio
+- nell'origine è **pari al valor quadratico medio**
 - forma tipo
 
 ![[Pasted image 20221111112107.png]]

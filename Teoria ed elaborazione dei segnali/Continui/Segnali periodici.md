@@ -1,4 +1,3 @@
-x
 # Trasformata di Fourier di segnali periodici
 ---
 Tramite calcoli (vedi slide) otteniamo che la trasformata di Fourier del segnale periodico si può scrivere come:

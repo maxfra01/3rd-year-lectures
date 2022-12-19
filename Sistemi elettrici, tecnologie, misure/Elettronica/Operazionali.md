@@ -161,4 +161,77 @@ $$
 \sum_{i=0}^N G_{ip}=\sum_{i=0}^N G_{im} + G_{F}
 $$
 Se quest'ultima non è verificata è ancora possibile cercare di bilanciare l'equazione con le resistenze collegate a riferimento $G_{0m}$ e $G_{0p}$ 
+Come bilanciare correttamente l'equazione?
+Definiamo $G_{p}'$ come la somma delle conduttanze del morsetto non invertente e $G'_{m}$ come la somma delle conduttanze del morsetto invertente (escluse la $G_{0}$)
+A questo punto impeniamo le uguaglianze:
+$$
+\begin{cases}
+\textrm{if} \space G'_{p}>G_{m}' \quad G_{0m}=G'_{p}-G'_{m} \quad G_{0p}=0 \\
+\textrm{else}     \quad G_{0m}=G'_{m}-G'_{p} \quad G_{0m}=0 \\
+\end{cases}
+$$
 
+# Amplificatore Differenziale
+---
+![[Pasted image 20221206090035.png]]
+
+Questo amplificatore fornisce una tensione d'uscita **proporzionale alla differnza tra le due tensioni dei generatori riferite a massa**.
+Per il teorema di sovrapposizione degli effetti abbiamo un primo contributo dovuto a $v^-$ (amplificatore invertente) pari a $- \frac{R_{a}}{R_{b}}v^-$
+Il secondo effetto dovuto a $v^+$ è pari a $\frac{R_{a}}{R_{a}+R_{b}}\left( 1+ \frac{R_{a}}{R_{b}}v^+ \right)$
+La somma delle due ci da le caratteristiche dell'amplificatore differnziale:
+$$
+v_{out}=\frac{R_{a}}{R_{b}}(v^+-v^-) \quad R_{in(v^+)}=R_{a}+R_{b} \quad R_{in(v^-)}=R_{b} \quad R_{out}=0
+$$
+### Modo comune e modo differenziale
+
+Quando parliamo di circuiti differenziali possiamo sempre scomporre il segnale nella **componente differenziale** e **componente di modo comune**:
+$$
+\begin{cases}
+v_{d}=v^+-v^- \\
+v_{cm}=\frac{v^++v^-}{2}
+\end{cases}
+\implies
+\begin{cases}
+v^+=v_{cm}+ \frac{v_{d}}{2} \\
+v^-
+=v_{cm}-\frac{v_{d}}{2} \\
+\end{cases}
+$$
+Nel nostro caso sopra l'amplificazione di modo comune è nulla dunque l'amplificatore si comporta in modo ideale.
+
+Nel caso di resistenze non perfettamente identiche (affette da una tolleranza $\delta$) ho un errore nel caso peggiore pari a $4\delta=\epsilon$ Devo dunque  sviluppare i calcoli e ottengo che la tensione di uscita **dipende anche dal modo comune** e dall'errore.
+Possono definire il **CMRR Common Mode Rejection Rate** come il rapporto:
+$$
+CMRR=|\frac{A_{d}}{A_{cm}}|
+$$
+### Disturbi elettromagnetici
+
+![[Pasted image 20221206093301.png]]
+
+Nel caso di collegamento tra un sensore e un'amplificatore è possibile che per una lunghezza elevata del cavo ci sia la presenza di **disturbi elettromagnetici** (rappresentato da un generatore di tensione di disturbo $v_{dl}$) che vengono portati all'ingresso.
+Inoltre la sorgente originale del segnale è riferito a una massa mentre l'amplificatore sarà riferito a un'altra massa che non è necessariamente uguale.
+Dunque all'ingresso dell'amplificatore ho:
+$$
+v_{in}=v_{s}+v_{dl}+v_{g}
+$$
+Allora per ovviare al problema posso ricorrere al seguente schema:
+
+![[Pasted image 20221206093813.png]]
+
+Ogni sorgente ha una quantità $\frac{v_{s}}{2}$ e utilizzo un' amplificatore **differenziale** per componsare fra loro le interferenze:
+$$
+\begin{cases}
+v^+=\frac{v_{s_{1}}}{2} +v_{dl}+v_{g} \\
+v^-=-\frac{v_{s_{2}}}{2} +v_{dl}+v_{g}
+\end{cases}
+\implies v_{d}= v_{s}
+$$
+Questo è valido solo nel caso di differnziale ideale, altrimenti se ho del modo comune amplificherò anche i disturbi.
+
+
+# Filtri con operazionali
+---
+
+	![[Pasted image 20221206094539.png]]
+
+Andando nel dominio delle frequenze possiamo notare che il guadagno di questo amplificatore è pari al rapporto fra le impedenze $\frac{Z_{2}}{Z_{1}}$ che sarà una funzione di $\omega$

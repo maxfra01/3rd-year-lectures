@@ -1,4 +1,5 @@
 # Sistemi di elaborazione
+---
 Un sistema di elaborazione è costituito dai seguenti componenti:
 - Utenti
 - Applicativi

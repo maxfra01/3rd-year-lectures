@@ -24,10 +24,12 @@
   "Teoria ed elaborazione dei segnali": "RiFolderLine",
   "Reti di Calcolatori/images": "RiImageLine",
   "Sistemi operativi/images": "RiImageLine",
-  "Teoria ed elaborazione dei segnali/images": "RiImageLine",
   "Sistemi elettrici, tecnologie, misure/Misure": "RiFolderLine",
   "Sistemi elettrici, tecnologie, misure/Misure/images": "RiImageLine",
   "Sistemi elettrici, tecnologie, misure/Elettronica": "RiFolderLine",
   "Sistemi elettrici, tecnologie, misure/Elettronica/images": "RiImageLine",
-  "Teoria ed elaborazione dei segnali/ENS": "RiFolderLine"
+  "Teoria ed elaborazione dei segnali/Continui": "RiFolderLine",
+  "Teoria ed elaborazione dei segnali/Continui/images": "RiImageLine",
+  "Teoria ed elaborazione dei segnali/Discreti": "RiFolderLine",
+  "Teoria ed elaborazione dei segnali/Discreti/images": "RiImageLine"
 }
