@@ -180,5 +180,33 @@ POP3 è stateless come HTTP, per risolvere ciò c'è IMAP.
 
 IMAP non è stateless e contiene tutte le email nel server, permette l'organizzazione in cartelle e tiene traccia delle sessioni.
 
-# Programmi P2P
+# BitTorrent
 ---
+I file sono divisi in chunk, si usa un sistema di indexing per individuarli.
+L'indexing è gestita dal **tracker**, un server che va popolato grazie a comunicazioni iniziali quando un utente diventa peer.
+
+Quando un download finisce il peer diventa seed.
+Come scelgo i chuncks da scaricare?
+- **Local Rarest First**, periodicamente si chiede ai vicini la lista dei chunks che offrono, dunque si richiedono i chunks mancanti, dando priorità a quelli rari.
+Come inviare i chunks?
+- **tit-for-tat** ogni host manda i suoi chunks ai 4 peer che hanno offerto più roba in passato (molto gentile). Ogni 30 secondi però si sceglie un peer a caso con cui condividere per favorire quelli appena entrati nella rete.
+
+# DHT Distributed Hash Table
+---
+Il sistema di indexing che era centralizzato nel tracker ora si sposta nei peer stessi (strano).
+Definisco un ID NUMERICO e lo assegno a ogni peer e a ogni risorsa e poi assegno la coppia al peer che è più vicino alla chiave.
+
+Se numero su $n$ bit allora possono numerare i peer con $2^n-1$ valori.
+
+Esempio:
+Chunck='prova'
+key=hash(Chunk)
+//key=15
+assign(peer 16, key)
+
+```ad-danger
+Il peer 16 non contiene il chunk 15 ma contiene la lista indexing del chunk 15
+```
+
+Come mi muovo all'interno di questa rete di hash tables?
+**Uso una circular DHT**, eventualmente ottimizzata con shortcuts.

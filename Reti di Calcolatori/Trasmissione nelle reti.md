@@ -1,11 +1,11 @@
 # Processo di numerizzazione
-
+---
 Nelle reti telematiche l'informazione si trasmette in forma **digitale** usando segnali digitali e analogico.
 Se queste informazioni sono in forma analogica, occorre, prima di essere trasmessi un **processo di numerizzazione**. 
 Ovvero tutto ciò visto nei corsi di SETM e TES, vedi appunti [[Conversione Analogico-Digitale]].
 
 # Tipi di trasmissione
-
+---
 Due grosse categorie: parallela e seriale.
 - Parallela: l'informazione è trasferita in parallelo su bus di comunicazione con segnali di dati e clock.
 - Serializzata: l'informazione è appunto serializzata e trasmessa un bit alla volta.
@@ -16,7 +16,7 @@ Disitnguiamo le trasmissioni:
 - Sincrona, le informazioni sono strutturate in **trame** (o slot) e prima di iniziare la trasmissione il tx e l'rx sincronizzano il loro clock, mantenendolo sincronizzato per tutta la durata.
 
 # Modi di trasferimento (Multiplazione)
-
+---
 Come condividere le risorse (nodi e canali) per trasferire i dati?
 La condivisione di canale avviene tramite **multiplazione** e **accesso multiplo**.
 La condivisione dei nodi avviene tramite **commutazione**.
@@ -47,7 +47,7 @@ I codici validi sono finiti e limitati, perciò la tecnica non è ottima.
 
 ### Multiplazione di spazio
 
-Le reti permettono di sfruttrare la diversità spaziale del sistema per far coesistere più flussi di informazione in punti diversi. 
+Le reti permettono di sfruttare la diversità spaziale del sistema per far coesistere più flussi di informazione in punti diversi. 
 Il territorio viene diviso in celle (cioè l’area intorno ad una antenna) e quando un ricevitore si sposta, non sente più l’antenna da cui partiva ma si aggancia ad un’altra. 
 In questo modo viene utilizzata la stessa frequenza ma in più punti diversi senza collisioni.
 
@@ -67,9 +67,45 @@ Le risorse vengono rilasciate al termine della comunicazione.
 ![[Pasted image 20221003142619.png]]
 
 - Impegno: prima fase della comunicazione, ovvero alzare la cornetta e digitare il numero, se l'utente 2 risponde allora c'è l'invio di una comunicazione nella direzione opposta: la comunicazione può iniziare e il circuito è riservato.
-- trasferimento dati:
+- trasferimento dati
 
+Efficiente per sorgenti non intermittenti, il tempo di apertura del circuito è elevato, tariffazione in base al tempo di esistenza del circuito.
 
 ### Commutazione di pacchetto
 
-(pdf)
+Le informazioni sono organizzate in **Protocol Data Unit PDU** che contengono a loro volta una **PCI, protocol contron information** e una **SDU service data unit**.
+
+```ad-note
+Il termine 'pacchetto' è generico e cambia a seconda dello strato a cui si fa riferimento, ad esempio posso riferirmi ad esso con il nome di packet, cll, segment, frame, trama, datagram, message ecc...
+```
+
+La commutazione di pacchetto si basa sullo **Store and Forward** per cui ogni nodo che riceve un pacchetto:
+1. lo memorizza
+2. lo elabora
+3. lo trasmette
+
+I **Ritardi sul canale** che possono  verificarsi sono dovuti in trasmissione alla dimensione dei bit del pacchetto oppure alla propagazione (metri di distanza).
+Per ogni **Ritardo sul nodo** è possibile che sia dovuto o a un ritardo di elaborazione o all'accodamento.
+
+Pacchettizzazione in funzione di molte cose, pacchetti corti abbassano la probabilità di errore.
+
+La commutazione di pacchetto può essere realizzata con due approcci
+
+| Circuito virtuale                                                                             | Datagram mode                                                                                        |
+| --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 3 fasi, apertura, trasferimento e chiusura, per cui avrò un accordo preliminare tra le entità | Non c'è un accordo preliminare, i pacchetti vengono inviati in rete e possono seguire diverse strade |
+| Le risorse comunque non solo allocate staticamente                                            | no allocazione                                                                                       |
+| Occorre un sistema di etichette per organizzare i flussi di dati                                                                                              |                                                                                                      |
+
+Si noti che la commutazione di pacchetto a circuito virtuale richiede l'uso di etichette anche solo locali che permettono al nodo di instradare il pacchetto sull'interfaaccia corretta.
+
+
+# Tecniche di segnalazione
+---
+Una **segnalazione** è uno scambio di informazione che riguardano l'apertura e la chiusura, nonchè la gestione di una rete di trasmissione.
+
+Possiamo distinguere due strategie:
+- **associata al canale**: c'è una corrispondenza biunivoca tra il canale controllante e quello controllato. Inoltre è possibile che i due canali coincidano (**in banda**). E' la modalità della telefonia mobile ![[Pasted image 20230117100550.png]]
+
+- **a canale comune**: in questa segnalazione esiste un canale appunto comune che gestisce i flussi di controllo di più utenti.  E' la modalità in uso dalla commutazione di pacchetto. ![[Pasted image 20230117100852.png]]
+

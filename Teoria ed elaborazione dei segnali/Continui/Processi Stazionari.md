@@ -73,7 +73,7 @@ $$
 Questa quantità è sempre pari e sempre positiva.
 Inoltre a partire dallo spettro si può ricavare la potenza media del processo casuale:
 $$
-P_{X}=R_{X}(0)=\int_{-\infty}^{\infty} S_{X}(f) \, df 
+P_{X}=E\{X^2(t)\}=R_{X}(0)=\int_{-\infty}^{\infty} S_{X}(f) \, df 
 $$
 
 

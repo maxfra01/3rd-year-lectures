@@ -49,6 +49,8 @@ UDP si usa sostanzialmente quando non necessito di garanzie o quando fornirle pr
 
 UDP è **connectionless**, dunque non c'è handshaking, e tutti i pacchetti sono considerati indipendenti
 
+UDP è usato per DHCP, RTP...
+
 
 # TCP: Transmission Control Protocol
 ---
@@ -146,7 +148,11 @@ Di categoria **congestion-avoidance** l'idea di fondo è quello di far crescere 
 
 ![[Pasted image 20221128185724.png]]
 
-**TCP Slow Start** è n'alternativa e parte con un cwnd uguale a 1 e poi raddoppia a ogni ACK ricevuto (crescita esponenziale).
+**TCP Slow Start** è n'alternativa e parte con un cwnd uguale a 1 e poi aumenta di 1 a ogni ACK ricevuto (crescita esponenziale) fino a una soglia, poi diventa AIMD.
+
+**Se scade il timeout**: la congestion windows è messa a 1 MSS, poi come slow start.
+**TCP RENO** se riceve 3 ack duplicati taglia la congestion windows di metà, poi lineare.
+in **TCP Tahoe sempre messo a 1 MSS** (per timeout o ack dup.)
 
 ### TCP Fair
 

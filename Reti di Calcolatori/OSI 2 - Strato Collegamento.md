@@ -1,13 +1,59 @@
+# Lo strato 2
+---
+Storicamento lo strato due ha due principali applicazioni:
+- Nelle reti di accesso tra l'apparato che abbiamo in casa (router) e l'apparato in centrale, lo strato 2 realizza collegamenti punto punto
+- Nelle reti private per ad esempio indirizzamento locale e protocollo di accesso multiplo
+
+### Formato PDU comune (pubbliche e private)
+
+![[Pasted image 20230112145827.png]]
+
+All'inizio e alla fine c'è il **flag di delimitazione**, (tutto orientato al byte).
+**Indirizzo** per reti pubbliche è ignorato, nelle private serve per indirizzamento.
+**Controllo** serve a differenziare il protocollo.
+I dati (ovvero una 2-SDU) sono 3-PDU.
+
+Occorre proteggere la trama da bit uguali al flag (**trasparenza**):
+- **bit stuffing**
+- **byte stuffing**: ogni volta che incontriamo una sequenza uguale al flag (o uguale all'escape), il ricevitore mette un byte di escape. Il ricevitore toglierà il primo escape di ogni coppia.
+
+# Reti pubbliche
+---
+
+### PPP
+
+E' usato ad esempio per effettuare collegamenti su linea telefonica o adsl per host di utenza residenziale (anche SONET).
+Il compito principale è la **delimitazione delle trame, byte stuffing, riconosce errori (CRC), multiplazione ecc...**.
+
+**NON FA CORREZIONE ERRORI, MANTENIMENTO SEQUENZA, CONTROLLO DI FLUSSO** (è punto-punto, le trame non possono andare da nessuna parte)
+
+![[Pasted image 20230112150722.png]]
+
+control si ignora ma serve per anticipare il protocollo di strato superiore.
+
+Il protocollo PPP si occupa anche di instaurare e abbattare la connessione gestendone i parametri  ![[Pasted image 20230112150906.png]]
+NCP negozia anche l'indirizzo IP
+
+### ATM
+
+Ha delle PDU di dimensioni fissa (chiamate CELLE di 53 byte)
+Usate tra il DSLAM e la centrale dell'operatore
+
+![[Pasted image 20230112151319.png]]
+
+ATM fa frammentazione da se, senza far fare nulla allo strato 3.
+
 # Reti private/locali/LAN
 ---
 All'interno di questo modello, lo strato OSI del collegamento è divisio in due sottolivelli:
 - **LLC Logical Link Control**
 - **MAC Medium Access Control**
 
-Il Logical Link Controlo LLC è anche il nome del protocollo che regola l'omonimo strato.
+Il Logical Link Controlo LLC è anche il nome del protocollo che regola l'omonimo strato. Serve per fare **Multiplazione di protocolli**
 E' anche detto standard IEEE 802.2 ed ha le seguenti caratteristiche:
 - orientato al byte
 - non si controllano gli errori
+- non c'è delimatazione
 
 Il suo compito è quello di fornire informazioni allo strato superiore, tramite appositi campi (si noti la dimensione variabile per il campo informazioni).
 
@@ -57,7 +103,7 @@ Utilizza una strategia i stop&wiat (dopo timeout scade e ritrasmette).
 
 ![[Pasted image 20221028164925.png]]
 
-Problema: se ritrasmetto dopo un tempo casuale e si è verificata una collisione continuerà a verificarsi la stessa collisione.
+Problema: se ritrasmetto dopo un tempo fisso e si è verificata una collisione continuerà a verificarsi la stessa collisione.
 Per risolvere uso la tecnica deel **BACKOFF** ovvero ritrasmettere dopo un tempo casuale, e in caso di ulteriore collisione si raddoppia il massimo tempo di attesa casuale (backoff esponenziale).
 
 

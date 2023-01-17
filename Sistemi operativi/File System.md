@@ -51,6 +51,10 @@ In caso di successo ritorna il descrittore del file, o -1 nel caso di errore (ch
 - mode specifica i diritti di accesso (   S_I[RWX]USR $\implies$ rwx — —   )
 - flags indica molteplici opzioni (O_RDONLY, O_WRONLY, O_RDWR...)
 
+```ad-note
+La open accetta sia 2 o 3 parametri alla chiamata, in quanto il campo mode è opzionale
+```
+
 ### READ
 
 ```c

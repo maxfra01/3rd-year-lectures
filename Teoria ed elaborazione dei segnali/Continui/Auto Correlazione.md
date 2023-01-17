@@ -57,6 +57,13 @@ Proprietà dell'autocorrelazione per un segnale $x(t)$ reale:
 - massimo nell'origine
 - il massimo corrisponde all'energia del segnale
 
+```ad-note
+Per testare se una funzione può rappresentare una autocorrelazione si deve testare:
+- la sua parità
+- il massimo nell'origine
+- che il suo spettro di energia assuma solo valari positivi
+```
+
 ![[Pasted image 20221101182544.png]]
 
 Per un segnale "veloce" abbiamo autocorrelazione "stretta"
@@ -72,7 +79,7 @@ Di conseguenza lo spettro di mutua correlazione fra segnali risulta essere pari 
 $$
 S_{xy}(f)=\mathcal{F}(R_{xy}(\tau))=S_{yx}^*(f)
 $$
-Applicazioni della cross-correlazione è quella di verificare quale fra un insimee di segnali sono vicini ad un segnale di riferimento, si cerca dunque quello con massima cross-correlazione.
+Applicazioni della cross-correlazione è quella di verificare quale fra un insieme di segnali sono vicini ad un segnale di riferimento, si cerca dunque quello con massima cross-correlazione.
 
 
 # Spettro di potenza

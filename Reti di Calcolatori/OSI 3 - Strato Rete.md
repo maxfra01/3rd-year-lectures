@@ -290,7 +290,7 @@ Per continuare a usare un indirizzo IP bisogna rinnovare la **lease** per quell'
 
 ![[Pasted image 20221115132844.png]]
 
-Oltre all'assegnazione di un indirizzo IP, il protocollo DHCP fornisce una **configurazione completa** per un host che si connette alla rete.
+Oltre all'assegnazione di un indirizzo IP, il protocollo DHCP fornisce una **configurazione completa** per un host che si connette alla rete. (deafult gateway e dns)
 
 
 # NAT
@@ -313,12 +313,14 @@ E' **compito del router** implementare il NAT seguendo le seguenti fasi:
 3. Per ogni pacchetto in entrata modificare la destinazione con il corretto IP della rete locale.
 
 Sorge però un problema: supponiamo che un client voglia contattare un dato server, che però si trova in una rete locale, dunque il client non riesce a contattarlo perchè l'unico indirizzo che conosce è il NAT router di quella rete.
-- Una **prima soluzione** consiste nel configurare staticamente il NAT in modo da associare una richiesta a una certa porta a un preciso server nella rete locale.
-- Una soluzione adottatta da Skype è l'uso di un server mediano per inoltrare i pacchetti: il client dentro alla LAN e quindi NAT client si connette a questo "ponte" e anche il client esterno lo fa, così il bridge è in grado di dirigere i pacchetti
+- Una **prima soluzione** consiste nel configurare staticamente il NAT in modo da associare una richiesta a una certa porta a un preciso server nella rete locale. (**port forwarding**)
+- **relaying**: Una soluzione adottatta da Skype è l'uso di un server mediano per inoltrare i pacchetti: il client dentro alla LAN e quindi NAT client si connette a questo "ponte" e anche il client esterno lo fa, così il bridge è in grado di dirigere i pacchetti
+
+![[Pasted image 20221230155839.png]]
 
 # ICMP: Internet Control Message Protocol
 ---
-Questo protocollo si basas sull'invio di messaggi ICMP formati da due campi principali: **type e code**
+Questo protocollo si basa sull'invio di messaggi ICMP formati da due campi principali: **type e code**
 
 | Type | Code | Description               |
 | ---- | ---- | ------------------------- |
