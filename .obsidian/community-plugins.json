@@ -2,6 +2,7 @@
   "obsidian-latex-suite",
   "obsidian-icon-folder",
   "obsidian-admonition",
+  "cm-editor-syntax-highlight-obsidian",
   "table-editor-obsidian",
-  "cm-editor-syntax-highlight-obsidian"
+  "execute-code"
 ]

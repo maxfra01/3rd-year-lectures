@@ -83,3 +83,10 @@ E' la frequenza $B_{eq}$ tale per cui il rettangolo con base  $[-B_{eq};B_{eq}]$
 $$
 2B_{eq}|X_{M}|^2 =\int _{T} S_{x}(f) \, df=\sum_{n=-\infty}^\infty |x(n)|^2 
 $$
+# Convoluzione Circolare
+---
+Operatore compatibile con due sequenze di tempo discrete, SOLO se hanno la stessa lunghezza $N$, in caso contrario occorre inserire degli zeri per pareggiare.
+Il supporto della convoluzione circolare è proprio N e cambia a seconda di quest'ultimo.
+Il risultato coincide con quello della convoluzione lineare solo se $N$ è pari al supporto della convoluzione lineare stessa.
+
+Dal punto di vista operativo la convoluzione circolari si può calcolare come il prodotto fra matrici di cui una circolante, ovvero ogni colonna shifta di una posizione in giù.
