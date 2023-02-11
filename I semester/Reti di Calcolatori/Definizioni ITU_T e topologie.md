@@ -1,4 +1,5 @@
 # Definizioni utili ITU_T
+---
 
 ### Funzioni in una rete di telecomunicazioni
 - Segnalazione: scambio di informazioni che riguardano l'**apertura, la chiusa e la gestione** per la rete di telecomunicazione.

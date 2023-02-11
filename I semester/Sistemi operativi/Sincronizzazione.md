@@ -268,7 +268,7 @@ int sem_destroy(sem_t *sem)
 # Implementazione MUTEX
 ---
 Si trovano in `<pthread.h>`
-Le funzione che fornisce sono: init, lock, trylock, unlock, destory
+Le funzione che fornisce sono: init, lock, trylock, unlock, destroy
 
 ```ad-note
 comodi ed efficienti
