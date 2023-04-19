@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": "#483699",
     "recentlyUsedIcons": [
-      "RiBook2Line",
-      "RiBook2Fill",
-      "RiAliensLine",
-      "RiAwardFill",
-      "RiImageLine"
+      "RiSoundModuleLine",
+      "RiFolderLine",
+      "RiBookOpenFill",
+      "RiFolder3Fill",
+      "RiBook2Line"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,5 +37,16 @@
   "Teoria ed elaborazione dei segnali/Continui": "RiFolderLine",
   "Teoria ed elaborazione dei segnali/Continui/images": "RiImageLine",
   "Teoria ed elaborazione dei segnali/Discreti": "RiFolderLine",
-  "Teoria ed elaborazione dei segnali/Discreti/images": "RiImageLine"
+  "Teoria ed elaborazione dei segnali/Discreti/images": "RiImageLine",
+  "I semester": "RiFolderLine",
+  "II semester": "RiFolderLine",
+  "II semester/Controlli automatici": "RiBook2Fill",
+  "II semester/Elettronica applicata": "RiBook2Fill",
+  "II semester/Programmazione a oggetti": "RiBook2Fill",
+  "II semester/Controlli automatici/Modellistica": "RiSoundModuleLine",
+  "II semester/Controlli automatici/Movimento": "RiSoundModuleLine",
+  "II semester/Controlli automatici/Stabilità": "RiSoundModuleLine",
+  "II semester/Elettronica applicata/Unità B": "RiSoundModuleLine",
+  "II semester/Elettronica applicata/Unità C": "RiSoundModuleLine",
+  "II semester/Controlli automatici/Strutturali": "RiSoundModuleLine"
 }

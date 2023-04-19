@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7ba0314ea9e39313",
+        "id": "6ece968b295576cf",
         "type": "tabs",
         "children": [
           {
-            "id": "372f92c7dc12fdaa",
+            "id": "ad1af09315d13f5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Comparatori.md",
+                "file": "II semester/Programmazione a oggetti/U6-Collections.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:)",
+                "query": "BIBO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Comparatori.md",
+                "file": "II semester/Programmazione a oggetti/U6-Collections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Comparatori.md"
+                "file": "II semester/Programmazione a oggetti/U6-Collections.md"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Comparatori.md",
+                "file": "II semester/Programmazione a oggetti/U6-Collections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,20 +144,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "372f92c7dc12fdaa",
+  "active": "ad1af09315d13f5c",
   "lastOpenFiles": [
-    "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Amplificatori.md",
-    "Sistemi elettrici, tecnologie, misure/Misure/Misurazione della resistenza.md",
-    "Sistemi elettrici, tecnologie, misure/Misure/Incertezze, modello deterministico.md",
-    "Sistemi elettrici, tecnologie, misure/Misure/DSO Digital Storage Oscilloscope.md",
-    "Sistemi elettrici, tecnologie, misure/Misure/Conversione Analogico-Digitale.md",
-    "Sistemi elettrici, tecnologie, misure/Misure/ADC nella strumentazione di misura.md",
-    "Recap SETM.md",
-    "OS.md",
-    "Sistemi elettrici, tecnologie, misure/Elettronica/Transistor.md",
-    "Sistemi elettrici, tecnologie, misure/Elettronica/Operazionali.md"
+    "II semester/Controlli automatici/Strutturali/Osservabilità e rilevabilità.md",
+    "II semester/Controlli automatici/Strutturali/attachments/Pasted image 20230419092405.png",
+    "II semester/Controlli automatici/Strutturali/Raggiungibilità e controllabiilità.md",
+    "II semester/Programmazione a oggetti/Untitled.md",
+    "II semester/Programmazione a oggetti/U6-Collections.md",
+    "II semester/Programmazione a oggetti/attachments/Pasted image 20230418220820.png",
+    "II semester/Programmazione a oggetti/attachments/Pasted image 20230418214957.png",
+    "II semester/Elettronica applicata/Unità C/Modelli a linea.md",
+    "II semester/Elettronica applicata/Unità C/attachments/Pasted image 20230418184849.png",
+    "II semester/Elettronica applicata/Unità C/attachments/Pasted image 20230418184623.png",
+    "II semester/Elettronica applicata/Unità C/attachments/Pasted image 20230418184101.png",
+    "II semester/Elettronica applicata/Unità C/attachments/Pasted image 20230418183335.png",
+    "II semester/Elettronica applicata/Unità C/attachments/Pasted image 20230418182644.png",
+    "II semester/Elettronica applicata/Unità C/attachments/Pasted image 20230418181250.png",
+    "II semester/Elettronica applicata/Unità C/attachments/Pasted image 20230418181030.png",
+    "II semester/Elettronica applicata/Unità C/Interconnessioni.md",
+    "II semester/Elettronica applicata/Unità C/attachments",
+    "II semester/Elettronica applicata/Unità B/Circuiti logici.md",
+    "II semester/Elettronica applicata/Unità B/Esempi.md",
+    "II semester/Elettronica applicata/Unità B/Memorie volatili.md",
+    "II semester/Elettronica applicata/Unità B/Memorie non volatili.md",
+    "II semester/Controlli automatici/Strutturali/attachments",
+    "II semester/Controlli automatici/Strutturali/Retroazione statica dello stato.md",
+    "II semester/Controlli automatici/Strutturali",
+    "LAB2.md",
+    "II semester/Elettronica applicata/Unità B/Flip Flop.md",
+    "II semester/Elettronica applicata/Unità B/Circuiti sequenziali.md",
+    "II semester/Elettronica applicata/Unità C",
+    "II semester/Elettronica applicata/Unità B/attachments",
+    "II semester/Elettronica applicata/Unità B/Logiche programmabili.md",
+    "II semester/Controlli automatici/Stabilità/Stabilità interna LTI.md",
+    "II semester/Elettronica applicata/Untitled.md",
+    "II semester/Elettronica applicata/Unità B",
+    "II semester/Controlli automatici/Stabilità/Stabilità dell'equilibrio per NL.md",
+    "II semester/Controlli automatici/Movimento",
+    "II semester/Programmazione a oggetti/U5-Generics.md",
+    "II semester/Controlli automatici/Stabilità/attachments",
+    "II semester/Controlli automatici/Stabilità/Stabilità interna.md",
+    "II semester/Controlli automatici/Stabilità/Linearizzazione di sistema.md",
+    "II semester/Controlli automatici/Stabilità/Equilibrio.md",
+    "II semester/Controlli automatici/Stabilità/Criteri di stabilità di LTI.md",
+    "II semester/Controlli automatici/Stabilità",
+    "II semester/Programmazione a oggetti/U4-Inheritance.md",
+    "II semester/Programmazione a oggetti/attachments",
+    "II semester/Programmazione a oggetti/U2.md",
+    "Untitled.canvas"
   ]
 }

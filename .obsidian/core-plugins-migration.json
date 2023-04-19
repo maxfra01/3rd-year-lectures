@@ -10,7 +10,7 @@
   "daily-notes": true,
   "templates": true,
   "note-composer": true,
-  "command-palette": false,
+  "command-palette": true,
   "slash-command": false,
   "editor-status": true,
   "starred": true,
