@@ -1,9 +1,7 @@
 [
   "obsidian-latex-suite",
-  "obsidian-icon-folder",
   "obsidian-admonition",
   "cm-editor-syntax-highlight-obsidian",
   "table-editor-obsidian",
-  "execute-code",
-  "obsidian-version-history-diff"
+  "obsidian-icon-folder"
 ]

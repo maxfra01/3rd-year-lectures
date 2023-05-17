@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5f0559c67e46125e",
+        "id": "c98ead4be9463c94",
         "type": "tabs",
         "children": [
           {
-            "id": "f6fd470160f27f4c",
+            "id": "11286f9b15d68ad7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II semester/Programmazione a oggetti/U7 - Exceptions.md",
+                "file": "II semester/Programmazione a oggetti/U11- Thread.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "BIBO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,6 +63,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "03babf1f59afca2f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -97,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "II semester/Programmazione a oggetti/U7 - Exceptions.md",
+                "file": "II semester/Programmazione a oggetti/U11- Thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II semester/Programmazione a oggetti/U7 - Exceptions.md"
+                "file": "II semester/Programmazione a oggetti/U11- Thread.md"
               }
             }
           },
@@ -119,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "II semester/Programmazione a oggetti/U7 - Exceptions.md",
+                "file": "II semester/Programmazione a oggetti/U11- Thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +138,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -148,54 +157,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6fd470160f27f4c",
+  "active": "11286f9b15d68ad7",
   "lastOpenFiles": [
-    "README.md",
-    "II semester/Controlli automatici/Stabilità/Stabilità esterna.md",
-    "II semester/Programmazione a oggetti/U7 - Exceptions.md",
-    "II semester/Controlli automatici/Strutturali/Stima dello stato.md",
-    "II semester/Controlli automatici/Strutturali/Retroazione statica dello stato.md",
-    "II semester/Controlli automatici/Strutturali/attachments/Pasted image 20230421100918.png",
-    "II semester/Controlli automatici/Strutturali/attachments/Pasted image 20230421095116.png",
-    "II semester/Controlli automatici/Strutturali/attachments/Pasted image 20230421090907.png",
-    "II semester/Controlli automatici/Strutturali/attachments/Pasted image 20230421085637.png",
-    "II semester/Controlli automatici/Strutturali/attachments/Pasted image 20230421084656.png",
-    "II semester/Programmazione a oggetti/attachments/Pasted image 20230420140200.png",
-    "II semester/Programmazione a oggetti/attachments/Pasted image 20230420133837.png",
-    "II semester/Programmazione a oggetti/U6-Collections.md",
-    "II semester/Controlli automatici/Strutturali/Osservabilità e rilevabilità.md",
-    "II semester/Controlli automatici/Strutturali/attachments/Pasted image 20230419092405.png",
-    "II semester/Controlli automatici/Strutturali/Raggiungibilità e controllabiilità.md",
-    "II semester/Programmazione a oggetti/Untitled.md",
-    "II semester/Programmazione a oggetti/attachments/Pasted image 20230418220820.png",
-    "II semester/Programmazione a oggetti/attachments/Pasted image 20230418214957.png",
-    "II semester/Elettronica applicata/Unità C/Modelli a linea.md",
-    "II semester/Elettronica applicata/Unità C/Interconnessioni.md",
+    "II semester/Programmazione a oggetti/U10-Regex.md",
+    "II semester/Programmazione a oggetti/U11- Thread.md",
+    "II semester/Programmazione a oggetti/U9-Input.md",
+    "II semester/Elettronica applicata/Unità D/D5-Condizionamento del segnale.md",
+    "Ava - Getting Started.md",
+    "II semester/Elettronica applicata/Unità E",
+    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517124222.png",
+    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517123827.png",
+    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517121327.png",
+    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517121235.png",
+    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517121207.png",
+    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517121122.png",
+    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517120657.png",
+    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517114624.png",
+    "II semester/Controlli automatici/Automatica/Inseguimento di segnali sinusoidali.md",
+    "II semester/Controlli automatici/Automatica/Carte di Nichols.md",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230517093600.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230517092125.png",
+    "II semester/Controlli automatici/Automatica/Risposta transitorio e in frequenza.md",
+    "II semester/Elettronica applicata/Unità D/D4-Multiplexer e Sample-Hold.md",
+    "II semester/Elettronica applicata/Unità D/D3-Convertitori A to D.md",
+    "II semester/Controlli automatici/Automatica/Margini di stabilità.md",
+    "II semester/Controlli automatici/Stabilità/Equilibrio.md",
+    "II semester/Controlli automatici/Movimento/Analisi modale LTI.md",
+    "II semester/Controlli automatici/Stabilità/Stabilità dell'equilibrio per NL.md",
+    "II semester/Controlli automatici/Stabilità/Stabilità interna LTI.md",
+    "II semester/Controlli automatici/Modellistica/Sistemi meccanici.md",
+    "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Operazionali.md",
+    "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Amplificatori.md",
+    "II semester/Controlli automatici/Automatica/Criterio di Nyquist.md",
+    "Untitled.md",
+    "II semester/Controlli automatici/Automatica/Diagrammi polari e di Nyquist.md",
+    "II semester/Elettronica applicata/Unità D/D2-Convertitori D to A.md",
+    "I semester/Sistemi elettrici, tecnologie, misure/Misure/Conversione Analogico-Digitale.md",
+    "II semester/Elettronica applicata/Unità D/D1-Introduzione A to D.md",
+    "II semester/Elettronica applicata/Unità D/attachments",
+    "II semester/Elettronica applicata/Unità D",
+    "II semester/Controlli automatici/Automatica/Reiezioni di disturbi.md",
+    "II semester/Controlli automatici/Automatica/Schema a blocchi.md",
+    "II semester/Controlli automatici/Automatica/attachments",
+    "II semester/Controlli automatici/Automatica",
+    "attachments",
     "II semester/Elettronica applicata/Unità C/attachments",
-    "II semester/Elettronica applicata/Unità B/Circuiti logici.md",
-    "II semester/Elettronica applicata/Unità B/Esempi.md",
-    "II semester/Elettronica applicata/Unità B/Memorie volatili.md",
-    "II semester/Elettronica applicata/Unità B/Memorie non volatili.md",
     "II semester/Controlli automatici/Strutturali/attachments",
     "II semester/Controlli automatici/Strutturali",
-    "LAB2.md",
-    "II semester/Elettronica applicata/Unità B/Flip Flop.md",
-    "II semester/Elettronica applicata/Unità B/Circuiti sequenziali.md",
     "II semester/Elettronica applicata/Unità C",
-    "II semester/Elettronica applicata/Unità B/attachments",
-    "II semester/Elettronica applicata/Unità B/Logiche programmabili.md",
-    "II semester/Controlli automatici/Stabilità/Stabilità interna LTI.md",
-    "II semester/Elettronica applicata/Untitled.md",
-    "II semester/Elettronica applicata/Unità B",
-    "II semester/Controlli automatici/Stabilità/Stabilità dell'equilibrio per NL.md",
-    "II semester/Controlli automatici/Movimento",
-    "II semester/Programmazione a oggetti/U5-Generics.md",
-    "II semester/Controlli automatici/Stabilità/attachments",
-    "II semester/Controlli automatici/Stabilità/Stabilità interna.md",
-    "II semester/Controlli automatici/Stabilità/Linearizzazione di sistema.md",
-    "II semester/Controlli automatici/Stabilità/Equilibrio.md",
-    "II semester/Controlli automatici/Stabilità",
-    "II semester/Programmazione a oggetti/attachments",
     "Untitled.canvas"
   ]
 }

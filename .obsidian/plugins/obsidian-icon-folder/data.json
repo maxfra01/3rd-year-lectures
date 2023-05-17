@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": "#483699",
     "recentlyUsedIcons": [
+      "RiAB",
       "RiSoundModuleLine",
       "RiFolderLine",
       "RiBookOpenFill",
-      "RiFolder3Fill",
-      "RiBook2Line"
+      "RiFolder3Fill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -19,7 +19,8 @@
       "bottom": 2,
       "left": 2
     },
-    "emojiStyle": "none"
+    "emojiStyle": "none",
+    "iconInTabsEnabled": false
   },
   "Reti di Calcolatori": "RiBook2Fill",
   "Sistemi elettrici, tecnologie, misure": "RiBook2Fill",
@@ -48,5 +49,8 @@
   "II semester/Controlli automatici/Stabilità": "RiSoundModuleLine",
   "II semester/Elettronica applicata/Unità B": "RiSoundModuleLine",
   "II semester/Elettronica applicata/Unità C": "RiSoundModuleLine",
-  "II semester/Controlli automatici/Strutturali": "RiSoundModuleLine"
+  "II semester/Controlli automatici/Strutturali": "RiSoundModuleLine",
+  "II semester/Controlli automatici/Automatica": "RiAB",
+  "II semester/Elettronica applicata/Unità D": "RiSoundModuleLine",
+  "II semester/Elettronica applicata/Unità E": "RiSoundModuleLine"
 }
