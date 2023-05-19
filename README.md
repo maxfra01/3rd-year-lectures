@@ -6,6 +6,6 @@ Appunti dei corsi del terzo anno di Ingegneria informatica @ **PoliTo**:
 - Reti di calcolatori
 - Controlli automatici
 - Elettronica applicata
-- Peogrammazione ad oggetti
+- Programmazione ad oggetti
 
 Appunti scritti tramite Obsidian.

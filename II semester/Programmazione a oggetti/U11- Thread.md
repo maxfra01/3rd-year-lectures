@@ -1,2 +1,0 @@
-# Thread in Java
----

@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c98ead4be9463c94",
+        "id": "06879df3b16955d5",
         "type": "tabs",
         "children": [
           {
-            "id": "11286f9b15d68ad7",
+            "id": "4dd41530956bfc08",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "II semester/Programmazione a oggetti/U11- Thread.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "II semester/Programmazione a oggetti/U11- Thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "II semester/Programmazione a oggetti/U11- Thread.md"
-              }
+              "state": {}
             }
           },
           {
@@ -127,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "II semester/Programmazione a oggetti/U11- Thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,27 +148,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11286f9b15d68ad7",
+  "active": "4dd41530956bfc08",
   "lastOpenFiles": [
-    "II semester/Programmazione a oggetti/U10-Regex.md",
-    "II semester/Programmazione a oggetti/U11- Thread.md",
+    "README.md",
+    "II semester/Programmazione a oggetti/U11-Thread.md",
+    "II semester/Programmazione a oggetti/attachments/Pasted image 20230519204025.png",
+    "II semester/Programmazione a oggetti/U5-Generics.md",
+    "II semester/Elettronica applicata/Unità D/D2-Convertitori D to A.md",
+    "II semester/Controlli automatici/Automatica/Reti di compensazione.md",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519111907.png",
+    "II semester/Controlli automatici/Automatica/Analisi delle specifiche.md",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519104955.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519103745.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519103517.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519102701.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519095234.png",
+    "II semester/Controlli automatici/Automatica/Risposta transitorio e in frequenza.md",
+    "II semester/Controlli automatici/Automatica/Reiezioni di disturbi polinomiali.md",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519092653.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519092639.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230519090720.png",
+    "II semester/Controlli automatici/Automatica/Inseguimento di segnali sinusoidali.md",
     "II semester/Programmazione a oggetti/U9-Input.md",
+    "II semester/Programmazione a oggetti/U7-Exceptions.md",
+    "II semester/Programmazione a oggetti/U10-Regex.md",
     "II semester/Elettronica applicata/Unità D/D5-Condizionamento del segnale.md",
     "Ava - Getting Started.md",
     "II semester/Elettronica applicata/Unità E",
-    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517124222.png",
-    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517123827.png",
-    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517121327.png",
-    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517121235.png",
-    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517121207.png",
-    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517121122.png",
-    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517120657.png",
-    "II semester/Elettronica applicata/Unità D/attachments/Pasted image 20230517114624.png",
-    "II semester/Controlli automatici/Automatica/Inseguimento di segnali sinusoidali.md",
     "II semester/Controlli automatici/Automatica/Carte di Nichols.md",
-    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230517093600.png",
-    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230517092125.png",
-    "II semester/Controlli automatici/Automatica/Risposta transitorio e in frequenza.md",
     "II semester/Elettronica applicata/Unità D/D4-Multiplexer e Sample-Hold.md",
     "II semester/Elettronica applicata/Unità D/D3-Convertitori A to D.md",
     "II semester/Controlli automatici/Automatica/Margini di stabilità.md",
@@ -189,15 +187,8 @@
     "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Operazionali.md",
     "I semester/Sistemi elettrici, tecnologie, misure/Elettronica/Amplificatori.md",
     "II semester/Controlli automatici/Automatica/Criterio di Nyquist.md",
-    "Untitled.md",
-    "II semester/Controlli automatici/Automatica/Diagrammi polari e di Nyquist.md",
-    "II semester/Elettronica applicata/Unità D/D2-Convertitori D to A.md",
-    "I semester/Sistemi elettrici, tecnologie, misure/Misure/Conversione Analogico-Digitale.md",
-    "II semester/Elettronica applicata/Unità D/D1-Introduzione A to D.md",
     "II semester/Elettronica applicata/Unità D/attachments",
     "II semester/Elettronica applicata/Unità D",
-    "II semester/Controlli automatici/Automatica/Reiezioni di disturbi.md",
-    "II semester/Controlli automatici/Automatica/Schema a blocchi.md",
     "II semester/Controlli automatici/Automatica/attachments",
     "II semester/Controlli automatici/Automatica",
     "attachments",
