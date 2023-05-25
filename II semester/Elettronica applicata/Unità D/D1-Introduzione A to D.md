@@ -54,3 +54,10 @@ E' definito come:
 $$
 ENOB=\frac{SNR_{tot}}{6}-0.3
 $$
+
+### Topic unità
+
+[[D2-Convertitori D to A]]
+[[D3-Convertitori A to D]]
+[[D4-Multiplexer e Sample-Hold]]
+[[D5-Condizionamento del segnale]]

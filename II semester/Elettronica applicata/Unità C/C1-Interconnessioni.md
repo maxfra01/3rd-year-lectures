@@ -130,3 +130,11 @@ $$
 Dove $V_{DD}$ corrisponde a $V_{\infty}$ e $V_{L}$ la tensione che voglio andare a considerare.
 Mettendo al posto che $V_{L}$, prima $V_{IH}$ e poi $V_{IL}$ otteniamo i tempi massimi e minimi di trasmissione, successivamente possiamo farne la differenza per trovare lo skew.
 
+### Topic unità
+
+[[C2-Modelli a linea]]
+[[C3-Connessioni con linee]]
+[[C4-Cicli di trasferimento]]
+[[C5-Protocolli di Bus]]
+[[C6-Collegamenti seriali]]
+[[C7-Integrità di segnale]]

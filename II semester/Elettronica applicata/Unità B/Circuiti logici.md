@@ -198,3 +198,15 @@ $$
 P_{D}=FC_{tot}V^2=200 \cdot 10^6 \cdot 4 \cdot 10^{-15} \cdot 100000000
 $$
 Dove $C_{tot}$ è il contributo di capacità di **tutti gli ingressi**.
+
+
+### Topic unità
+
+[[Circuiti sequenziali]]
+[[Flip Flop]]
+[[Logiche programmabili]]
+[[Memorie volatili]]
+[[Memorie non volatili]]
+[[Oscillatori]]
+[[Verilog]]
+[[Esempi]]
