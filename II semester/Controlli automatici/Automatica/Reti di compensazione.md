@@ -231,3 +231,20 @@ In simulink dopo aver applicato un ingresso a gradino possiamo mettere un oscill
 
 Nel caso di un $C(s)$ che contiene **almeno un polo nell'origine** allora l'attività sul comando massimo è raggiunta per un tempo $t>0$.
 In questo caso prima simulo la risposta al gradino e noto quando il transitorio si esaurisce, poi lancio `step(W,tx)` dove $t_{x}$ è l'istante in cui finisce il transitorio: così facendo si ottiene più precisione sul grafico.
+
+
+# Altra rete di compensazione
+---
+Se **Nel controllore ho messo io un polo nell'origine**, e devo **garantire anche un buon anticipo di fase** allora è conveniente aggiungere anche uno **zero**:
+
+![[Pasted image 20230526092612.png]]
+
+La fdt complessiva è pari a:
+$$
+C_{PI}(s)=\frac{1+\tau s}{s}
+$$
+La rete così formata è di tipo **proporzionale integrale**.
+
+### Progettazione
+
+Una volta che ho fissato il $K_{c}$ al solito modo, vado a determinare la collocazione di questo zero in base al recupero di fase (sostituisce di fatto la rete anticipatrice).

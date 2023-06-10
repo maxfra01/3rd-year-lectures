@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "56cfc47e7a8a0a52",
+        "id": "f4846e6f45271dcb",
         "type": "tabs",
         "children": [
           {
-            "id": "bb3154b83f74afc3",
+            "id": "757f6f93b60e7281",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II semester/Elettronica applicata/Unità E/Circuiti di potenza.md",
+                "file": "Formule utili ELAP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "forma minima",
+                "query": "attività sul comando",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "II semester/Elettronica applicata/Unità E/Circuiti di potenza.md",
+                "file": "Formule utili ELAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II semester/Elettronica applicata/Unità E/Circuiti di potenza.md"
+                "file": "Formule utili ELAP.md"
               }
             }
           },
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "II semester/Elettronica applicata/Unità E/Circuiti di potenza.md",
+                "file": "Formule utili ELAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,45 +157,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb3154b83f74afc3",
+  "active": "757f6f93b60e7281",
   "lastOpenFiles": [
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524134016.png",
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524125521.png",
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524122418.png",
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524121941.png",
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524120950.png",
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524120159.png",
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524115605.png",
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524115040.png",
-    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230524114940.png",
-    "II semester/Elettronica applicata/Unità E/attachments",
-    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230524085853.png",
-    "II semester/Elettronica applicata/Unità E/Circuiti di potenza.md",
+    "Cose utili CA.md",
+    "Formule utili ELAP.md",
+    "II semester/Elettronica applicata/Unità B/Memorie non volatili.md",
+    "II semester/Elettronica applicata/Unità B/Circuiti logici.md",
+    "II semester/Elettronica applicata/Unità B/Memorie volatili.md",
     "II semester/Controlli automatici/Automatica/Reti di compensazione.md",
-    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230523151711.png",
+    "II semester/Controlli automatici/Automatica/Controllori PID.md",
+    "II semester/Controlli automatici/Automatica/Analisi delle specifiche.md",
+    "II semester/Controlli automatici/Movimento/Risposte di sistemi.md",
     "Exams Prep.md",
+    "II semester/Controlli automatici/Automatica/Controllori digitali.md",
+    "Vacanza.md",
+    "II semester/Programmazione a oggetti/U8-Stream.md",
+    "II semester/Controlli automatici/Strutturali/Raggiungibilità e controllabiilità.md",
+    "README.md",
+    "II semester/Programmazione a oggetti/U12-GUI.md",
+    "II semester/Programmazione a oggetti/attachments/Pasted image 20230531161958.png",
+    "II semester/Elettronica applicata/Unità E/Regolatori.md",
+    "II semester/Elettronica applicata/Unità E/Alimentatori.md",
+    "II semester/Elettronica applicata/Unità E/Circuiti di potenza.md",
+    "II semester/Elettronica applicata/Unità E/attachments/Pasted image 20230531114012.png",
+    "II semester/Controlli automatici/Automatica/Carte di Nichols.md",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230531083947.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530182941.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530182730.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530182608.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530182419.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530182022.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530181647.png",
+    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530181116.png",
+    "II semester/Controlli automatici/Automatica/Sensibilità.md",
+    "II semester/Controlli automatici/Automatica/Inseguimento di segnali sinusoidali.md",
+    "II semester/Controlli automatici/Automatica/Reiezioni di disturbi polinomiali.md",
+    "II semester/Elettronica applicata/Unità E/attachments",
     "II semester/Controlli automatici/Stabilità/Criteri di stabilità di LTI.md",
     "II semester/Controlli automatici/Movimento/Movimento di LTI TC.md",
-    "II semester/Elettronica applicata/Unità B/Circuiti logici.md",
     "II semester/Elettronica applicata/Unità C/C1-Interconnessioni.md",
-    "II semester/Elettronica applicata/Unità D/D1-Introduzione A to D.md",
-    "II semester/Programmazione a oggetti/U1.md",
-    "II semester/Programmazione a oggetti/U10-Regex.md",
-    "II semester/Programmazione a oggetti/U9-Input.md",
-    "II semester/Programmazione a oggetti/U11-Thread.md",
-    "II semester/Controlli automatici/Stabilità/Stabilità esterna.md",
-    "I semester/Sistemi elettrici, tecnologie, misure/Misure/Incertezze, modello deterministico.md",
-    "II semester/Controlli automatici/Automatica/Analisi delle specifiche.md",
-    "Formule utili ELAP.md",
-    "II semester/Elettronica applicata/Unità D/D5-Condizionamento del segnale.md",
-    "II semester/Elettronica applicata/Unità B/Flip Flop.md",
-    "II semester/Elettronica applicata/Unità B/Circuiti sequenziali.md",
-    "II semester/Elettronica applicata/Unità C/C3-Connessioni con linee.md",
-    "II semester/Elettronica applicata/Unità C/C4-Cicli di trasferimento.md",
-    "II semester/Elettronica applicata/Unità C/C7-Integrità di segnale.md",
-    "II semester/Controlli automatici/Strutturali/Raggiungibilità e controllabiilità.md",
-    "II semester/Elettronica applicata/Unità B/Esempi.md",
-    "II semester/Elettronica applicata/Unità B/Memorie non volatili.md",
     "II semester/Elettronica applicata/Unità E",
     "II semester/Elettronica applicata/Unità D/attachments",
     "II semester/Elettronica applicata/Unità D",

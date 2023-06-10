@@ -7,9 +7,9 @@ Esame del 19/06/2023
 - [x] Movimenti di LTI TC in Laplace
 - [x] Movimento di LTI TD con Z-transform
 - [x] Analisi modali
-- [ ] Equilibrio
-- [ ] Linearizzazione di NL
-- [ ] Stabilità interna ed esterna
+- [x] Equilibrio
+- [x] Linearizzazione di NL
+- [x] Stabilità interna ed esterna
 - [x] Raggiungibilità
 - [x] Osservabilità
 - [x] Regolatore dinamico
@@ -24,16 +24,17 @@ Esame del 27/06/2023
 - [x] Ereditarietà
 - [ ] Tipi generici
 - [x] Collezioni
-- [ ] Eccezioni
+- [x] Eccezioni
 - [ ] Stream
 - [x] I/O
 - [x] Regex
-- [ ] Threads
+- [x] Threads
 
 - [ ] UML
 - [ ] Design pattern
 - [ ] Testing
 - [ ] SE
+- [ ] Git
 
 # Elettronica applicata
 ---

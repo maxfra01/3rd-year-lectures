@@ -182,7 +182,14 @@ Map<Integer,List<String>> byLenght =
 ![[Pasted image 20230426163259.png]]
 
 
-# Collettori custom
+# Esempi a lezione
 ---
+Reduce accetta un binary operator, oppure c'è una variante che accetta un seed, e un binary operator
+
+```java
+//Concatenazione di stringhe con reduce
+Stream.of(parole).
+	reduce("testo:", (a,b)-> a+ " "+b);
+```
 
 
