@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formule utili ELAP.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formule utili ELAP.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formule utili ELAP.md"
+                "file": "README.md"
               }
             }
           },
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formule utili ELAP.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,8 +159,14 @@
   },
   "active": "757f6f93b60e7281",
   "lastOpenFiles": [
-    "Cose utili CA.md",
     "Formule utili ELAP.md",
+    "II semester/Elettronica applicata/Unità B/Oscillatori.md",
+    "Exams Prep.md",
+    "Cose utili CA.md",
+    "II semester/Programmazione a oggetti/Riassunto Teoria.md",
+    "II semester/Programmazione a oggetti/attachments/Pasted image 20230610150107.png",
+    "II semester/Programmazione a oggetti/attachments/Pasted image 20230610144141.png",
+    "II semester/Programmazione a oggetti/U1.md",
     "II semester/Elettronica applicata/Unità B/Memorie non volatili.md",
     "II semester/Elettronica applicata/Unità B/Circuiti logici.md",
     "II semester/Elettronica applicata/Unità B/Memorie volatili.md",
@@ -168,7 +174,6 @@
     "II semester/Controlli automatici/Automatica/Controllori PID.md",
     "II semester/Controlli automatici/Automatica/Analisi delle specifiche.md",
     "II semester/Controlli automatici/Movimento/Risposte di sistemi.md",
-    "Exams Prep.md",
     "II semester/Controlli automatici/Automatica/Controllori digitali.md",
     "Vacanza.md",
     "II semester/Programmazione a oggetti/U8-Stream.md",
@@ -187,15 +192,10 @@
     "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530182608.png",
     "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530182419.png",
     "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530182022.png",
-    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530181647.png",
-    "II semester/Controlli automatici/Automatica/attachments/Pasted image 20230530181116.png",
     "II semester/Controlli automatici/Automatica/Sensibilità.md",
     "II semester/Controlli automatici/Automatica/Inseguimento di segnali sinusoidali.md",
     "II semester/Controlli automatici/Automatica/Reiezioni di disturbi polinomiali.md",
     "II semester/Elettronica applicata/Unità E/attachments",
-    "II semester/Controlli automatici/Stabilità/Criteri di stabilità di LTI.md",
-    "II semester/Controlli automatici/Movimento/Movimento di LTI TC.md",
-    "II semester/Elettronica applicata/Unità C/C1-Interconnessioni.md",
     "II semester/Elettronica applicata/Unità E",
     "II semester/Elettronica applicata/Unità D/attachments",
     "II semester/Elettronica applicata/Unità D",
