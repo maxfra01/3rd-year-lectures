@@ -1,5 +1,5 @@
 # Notes
-Appunti dei corsi del terzo anno di Ingegneria informatica @ **PoliTo**:
+Appunti dei corsi del terzo anno di Ingegneria informatica @ **Politecnico di Torino**:
 - Sistemi operativi
 - Teoria ed elaborazione dei segnali
 - Sistemi elettrici, tecnologie e misure
